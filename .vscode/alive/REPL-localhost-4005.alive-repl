@@ -1,0 +1,107 @@
+
+CL-USER> (nth 1 '(0 1 2))
+CL-USER> 
+(nth 0 '(0 1 2))
+1
+
+CL-USER> 
+(nth 0 '(0 1 2))
+0
+
+CL-USER> 
+CL-USER> 
+; in: DEFUN ALFABETA
+;     (F-SUCESSORES NO)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::F-SUCESSORES
+
+;     (F-UTILIDADE NO)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::F-UTILIDADE
+
+;     (F-UTILIZADE NO)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::F-UTILIZADE
+
+;     (MOST-NEGATIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+
+;     (MOST-POSITIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+; 
+; compilation unit finished
+;   Undefined functions:
+;     F-SUCESSORES F-UTILIDADE F-UTILIZADE MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
+;   caught 2 WARNING conditions
+;   caught 3 STYLE-WARNING conditions
+
+; in: DEFUN ALFABETA
+;     (FUNCALL F-UTILIZADE NO)
+; --> SB-C::%FUNCALL THE 
+; ==>
+;   (SB-KERNEL:%COERCE-CALLABLE-FOR-CALL F-UTILIZADE)
+; 
+; caught WARNING:
+;   undefined variable: COMMON-LISP-USER::F-UTILIZADE
+
+;     (MOST-NEGATIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+
+;     (MOST-POSITIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+; 
+; compilation unit finished
+;   Undefined functions:
+;     MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
+;   Undefined variable:
+;     F-UTILIZADE
+;   caught 3 WARNING conditions
+
+WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
+
+; in: DEFUN ALFABETA
+;     (MOST-NEGATIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+
+;     (MOST-POSITIVE-FIXNUM)
+; 
+; caught WARNING:
+;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
+;   ANSI CL so that even if it were defined later, the code doing so would not be
+;   portable.
+; 
+; compilation unit finished
+;   Undefined functions:
+;     MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
+;   caught 2 WARNING conditions
+
+WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
+(most-positive-fixnum)
+(most-positive-fixnum)
+(most-positive-fixnum)
+CL-USER> 
+CL-USER> 
+WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
