@@ -92,3 +92,62 @@
       ((eq option '0) (menu-escolher-jogador))
       (T T)))))
     
+(defun jogo-teste ()
+    (let 
+        (
+            (jogador 1)
+            (adversario 2)
+            (no-atual (no-inicial))
+        )
+        (progn 
+            (limpar-melhor-jogada)
+            (loop do
+                (progn
+                    (alfabeta 
+                        no-atual
+                        (criar-f-sucessores jogador adversario)
+                        (criar-f-utilidade jogador adversario) 5)
+                    (setf no-atual (obter-melhor-jogada))
+                    (format t "Turno do Jogador ~a ~% ------------------- ~%" jogador)
+                    (mostrar-no no-atual)
+                    (let ((temp jogador))
+                        (setf jogador adversario)
+                        (setf adversario temp)
+                    )
+                )
+            while (not (null (sucessores no-atual jogador (operadores)))))
+            (mostrar-pontuacoes (no-estado no-atual))
+        )
+    )
+)
+
+(defun mostrar-no (no)
+"Imprime no listener as informações do nó atual"
+  (progn
+    (format t "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no)))
+   (mostrar-tabuleiro (estado-tabuleiro (no-estado no)))
+   (format t "Peças disponiveis: ~%")
+   (format t "Jogador 1: ~a ~%" (estado-pecas-jogador (no-estado no) 1))
+   (format t "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2))
+   ))
+
+(defun mostrar-pontuacoes (estado)
+    (progn
+        (format t "Pontuações: ~%")
+        (format t "Jogador 1: ~a pontos ~%" (pontuacao estado 1))
+        (format t "Jogador 2: ~a pontos ~% ~%" (pontuacao estado 2))
+    )
+)
+
+(defun tabuleiro-letras (tabuleiro)
+"Percorre o tabuleiro e troca os números por símbolos"
+  (mapcar (lambda (row)
+            (mapcar (lambda (cel)
+                      (cond
+                       ((= cel 2) "O")
+                       ((= cel 1) "X")
+                       (t "_"))) row)) tabuleiro))
+
+(defun mostrar-tabuleiro (tabuleiro)
+  "Imprime no listener o estado do tabuleiro"
+  (format t "~{~{~a~^ ~}~%~}" (tabuleiro-letras tabuleiro)))

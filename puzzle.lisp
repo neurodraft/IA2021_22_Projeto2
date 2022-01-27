@@ -30,6 +30,10 @@
     (nth jogador estado)
 )
 
+(defun peca-offset-hotspot (peca)
+    (third peca)
+)
+
 (defun tabuleiro-vazio () 
     '(
       (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
@@ -62,11 +66,12 @@
             (1 1 0)
         )
         (
-            ((sup-esq) (-1 0))
-            ((sup-dir inf-dir) (-2 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq sup-esq) (0 -1))
+            ((sup-esq) (-1 1))
+            ((sup-dir inf-dir) (-2 1))
+            ((inf-dir) (-1 0))
+            ((inf-esq sup-esq) (0 0))
         )
+        (0 -1)
     )
 )
 
@@ -86,6 +91,7 @@
             ((inf-esq) (0 -1))
             ((sup-esq sup-dir) (0 0))
         )
+        (0 0)
     )
 )
 
@@ -100,6 +106,7 @@
         (
             ((sup-dir inf-dir inf-esq sup-esq) (0 0))
         )
+        (0 0)
     )
 )
 
@@ -118,6 +125,7 @@
             ((inf-esq) (0 -1))
             ((sup-esq) (0 0))
         )
+        (0 0)
     )
 )
 
@@ -311,8 +319,8 @@
     "Função que avlia se um tabuleiro fornecido não tem peças colocadas pelo jogador"
     (cond
         ((null tabuleiro) t)
-        ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro)) (tabuleiro-vaziop (cdr tabuleiro))))
-        ((/= (car tabuleiro) jogador) (and t (tabuleiro-vaziop (cdr tabuleiro))))
+        ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro) jogador) (tabuleiro-vaziop (cdr tabuleiro) jogador)))
+        ((/= (car tabuleiro) jogador) (and t (tabuleiro-vaziop (cdr tabuleiro) jogador)))
         (t nil)
     )
 )
@@ -392,20 +400,20 @@
     a peça nas posições x y"
   (labels
     (
-      (recursivo (matriz-peca i j)
+      (recursivo (matriz-peca i j offset)
         (cond
           ((null (car matriz-peca)) nil)
-          ((listp (car matriz-peca)) (append (recursivo (car matriz-peca) 0 j) (recursivo (cdr matriz-peca) 0 (1+ j))))
+          ((listp (car matriz-peca)) (append (recursivo (car matriz-peca) 0 j offset) (recursivo (cdr matriz-peca) 0 (1+ j) offset)))
           (t 
             (cond
-              ((= (car matriz-peca) 1) (cons (list (+ x i) (+ y j)) (recursivo (cdr matriz-peca) (1+ i) j)))
-              (t (cons nil (recursivo (cdr matriz-peca) (1+ i) j)))
+              ((= (car matriz-peca) 1) (cons (list (+ x i (first offset)) (+ y j (second offset))) (recursivo (cdr matriz-peca) (1+ i) j offset)) )
+              (t (cons nil (recursivo (cdr matriz-peca) (1+ i) j offset)))
             )
           )
         )
       )
     )
-    (remove nil (recursivo (first peca) 0 0))
+    (remove nil (recursivo (first peca) 0 0 (peca-offset-hotspot peca)))
   )
 )
 
@@ -467,12 +475,6 @@
             (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))
                 (cond 
                     ((valida-casas (first (no-estado no)) casas-ocupadas jogador)
-                        ; (list
-                        ;     (list
-                        ;         (ocupar-casas (first (no-estado no)) casas-ocupadas)
-                        ;         (atualizar-mao (second (no-estado no)) (first peca-colocacoes)))
-                        ;     (1+ (no-profundidade no))
-                        ;     no)
                         (let
                             (
                                 (novo-estado (criar-novo-estado (no-estado no) casas-ocupadas (first peca-colocacoes) jogador))

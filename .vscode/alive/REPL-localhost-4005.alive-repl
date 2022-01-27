@@ -1,2448 +1,1018 @@
+(jogo-teste)
+(jogo-teste)
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-V jogada na posição (0 0) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+Peças disponiveis: 
+Jogador 1: (10 10 14) 
+Jogador 2: (10 10 15) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (12 11) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 10 14) 
+Jogador 2: (10 10 14) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (1 4) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 10 13) 
+Jogador 2: (10 10 14) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (10 10) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 10 13) 
+Jogador 2: (10 10 13) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (4 1) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 9 13) 
+Jogador 2: (10 10 13) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (12 6) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 9 13) 
+Jogador 2: (10 10 12) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (3 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 8 13) 
+Jogador 2: (10 10 12) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (9 7) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 8 13) 
+Jogador 2: (10 9 12) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (1 7) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ _ _ _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 13) 
+Jogador 2: (10 9 12) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (7 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ X X _ _ _ _ _ _ _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 13) 
+Jogador 2: (10 8 12) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (5 4) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ X X _ _ _ _ _ _
+_ X X _ _ X X _ _ _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 12) 
+Jogador 2: (10 8 12) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (9 11) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ _ _ _ _ _ _
+_ X _ _ X X _ _ _ _ _ _ _ _
+_ _ X X _ _ X X _ _ _ _ _ _
+_ X X _ _ X X _ _ _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 12) 
+Jogador 2: (10 8 11) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-V jogada na posição (8 1) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ _ _ _
+_ X X _ _ X X _ _ _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ _ _ O O _ _ O
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 11) 
+Jogador 2: (10 8 11) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (7 8) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ _ _ _
+_ X X _ _ X X _ _ _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ O _ O O _ _ O
+_ _ _ _ _ _ _ O O _ _ O O _
+_ _ _ _ _ _ _ _ O _ O O _ _
+_ _ _ _ _ _ _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 11) 
+Jogador 2: (10 8 10) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (10 4) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ O _ O O _ _ O
+_ _ _ _ _ _ _ O O _ _ O O _
+_ _ _ _ _ _ _ _ O _ O O _ _
+_ _ _ _ _ _ _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 10) 
+Jogador 2: (10 8 10) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (4 11) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ O _ O O _ _ O
+_ _ _ _ _ _ _ O O _ _ O O _
+_ _ _ _ _ O O _ O _ O O _ _
+_ _ _ _ O O _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 10) 
+Jogador 2: (10 8 9) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (2 10) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ O _ O O _ _ O
+_ _ _ X X _ _ O O _ _ O O _
+_ _ X X _ O O _ O _ O O _ _
+_ _ _ _ O O _ _ _ O _ _ O _
+_ _ _ _ _ _ _ _ _ O O _ O O
+_ _ _ _ _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 9) 
+Jogador 2: (10 8 9) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (2 11) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ _ _ _ _ O O _ O O
+_ X X _ _ _ _ O _ O O _ _ O
+_ _ _ X X _ _ O O _ _ O O _
+_ _ X X _ O O _ O _ O O _ _
+_ _ O _ O O _ _ _ O _ _ O _
+_ _ O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 9) 
+Jogador 2: (10 8 8) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-V jogada na posição (5 7) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ X _ _ _ O O _ O O
+_ X X _ _ X X O _ O O _ _ O
+_ _ _ X X _ X O O _ _ O O _
+_ _ X X _ O O _ O _ O O _ _
+_ _ O _ O O _ _ _ O _ _ O _
+_ _ O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 8) 
+Jogador 2: (10 8 8) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (0 10) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ X _ _ _ O O _ O O
+_ X X _ _ X X O _ O O _ _ O
+_ O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+_ _ O _ O O _ _ _ O _ _ O _
+_ _ O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 7 8) 
+Jogador 2: (10 8 7) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (0 11) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X _ _ X _ _ _ O O _ O O
+_ X X _ _ X X O _ O O _ _ O
+_ O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 6 8) 
+Jogador 2: (10 8 7) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (3 7) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+_ _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+_ O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (10 6 8) 
+Jogador 2: (10 7 7) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (0 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+X _ _ X X _ _ O O _ _ _ _ _
+_ _ _ X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+_ O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (9 6 8) 
+Jogador 2: (10 7 7) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (1 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+_ O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (9 6 8) 
+Jogador 2: (10 6 7) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (0 9) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ _ _ _ O O _ O O
+_ _ _ O _ _ _ _ _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (8 6 8) 
+Jogador 2: (10 6 7) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (6 12) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+_ _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ O O _ O O _ O O
+_ _ _ O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (8 6 8) 
+Jogador 2: (10 5 7) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (0 3) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X _ _ X X _ X _ X X _
+_ X X _ _ X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ O O _ O O _ O O
+_ _ _ O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (7 6 8) 
+Jogador 2: (10 5 7) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (3 4) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O _ O _ O O _ _
+X X O _ O O _ _ _ O _ _ O _
+X X O O _ _ O O _ O O _ O O
+_ _ _ O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (7 6 8) 
+Jogador 2: (10 5 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-V jogada na posição (7 10) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ _ _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ _ O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (7 6 7) 
+Jogador 2: (10 5 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (11 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ _ O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (7 6 7) 
+Jogador 2: (9 5 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (2 13) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+_ X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (6 6 7) 
+Jogador 2: (9 5 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (0 8) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O _ _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (6 6 7) 
+Jogador 2: (8 5 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (9 5) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X _ _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (5 6 7) 
+Jogador 2: (8 5 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (6 7) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ X X _ _ X _ _ _ _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (5 6 7) 
+Jogador 2: (7 5 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (10 0) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X _ _ X X _ _ X _ X X _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X _ _ O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (5 5 7) 
+Jogador 2: (7 5 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (5 6) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X _ _ X X _ _ X _ X X _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O _ O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (5 5 7) 
+Jogador 2: (6 5 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (6 6) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X _ _ X X _ _ X _ X X _ _
+_ X _ _ X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (4 5 7) 
+Jogador 2: (6 5 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (2 1) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ _ O _ _ O
+Peças disponiveis: 
+Jogador 1: (4 5 7) 
+Jogador 2: (6 4 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (9 13) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ _
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (3 5 7) 
+Jogador 2: (6 4 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (13 10) 
+X _ _ _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (3 5 7) 
+Jogador 2: (5 4 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (2 0) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+_ X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (2 5 7) 
+Jogador 2: (5 4 6) 
+ 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (0 4) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+O X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O _ _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (2 5 7) 
+Jogador 2: (4 4 6) 
+ 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (12 5) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+O X X O O X X _ _ _ X X _ _
+X O O X X _ _ O O X _ O X _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (1 5 7) 
+Jogador 2: (4 4 6) 
+ 
+ Turno do Jogador 2 
+ ------------------- 
+PECA-A jogada na posição (9 4) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+O X X O O X X _ _ O X X _ _
+X O O X X _ _ O O X _ O X _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O _ O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (1 5 7) 
+Jogador 2: (3 4 6) 
+ 
+ Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (9 10) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X _ _ X _ X X _ _
+_ X O O X X _ _ X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+O X X O O X X _ _ O X X _ _
+X O O X X _ _ O O X _ O X _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O X O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (0 5 7) 
+Jogador 2: (3 4 6) 
+ 
+ Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (6 1) 
+X _ X _ _ _ _ _ _ _ X X _ _
+X X O O X X O O X _ X X _ _
+_ X O O X X O O X X _ _ _ _
+X _ X X O O X X _ X _ X X _
+O X X O O X X _ _ O X X _ _
+X O O X X _ _ O O X _ O X _
+_ O O X X O X O O _ _ _ O _
+_ X X O O X O _ _ O O _ O O
+O X X O O X X O _ O O _ _ O
+X O O X X _ X O O _ _ O O _
+O O X X _ O O X O X O O _ O
+X X O _ O O _ X X O _ _ O _
+X X O O _ _ O O X O O _ O O
+_ _ X O _ _ O O _ X O _ _ O
+Peças disponiveis: 
+Jogador 1: (0 5 7) 
+Jogador 2: (3 3 6) 
+ 
+ Pontuações: 
+Jogador 1: 62 pontos 
+Jogador 2: 71 pontos 
+ 
 
-CL-USER> (nth 1 '(0 1 2))
-CL-USER> 
-(nth 0 '(0 1 2))
-1
-
-CL-USER> 
-(nth 0 '(0 1 2))
-0
-
-CL-USER> 
-CL-USER> 
-; in: DEFUN ALFABETA
-;     (F-SUCESSORES NO)
-; 
-; caught STYLE-WARNING:
-;   undefined function: COMMON-LISP-USER::F-SUCESSORES
-
-;     (F-UTILIDADE NO)
-; 
-; caught STYLE-WARNING:
-;   undefined function: COMMON-LISP-USER::F-UTILIDADE
-
-;     (F-UTILIZADE NO)
-; 
-; caught STYLE-WARNING:
-;   undefined function: COMMON-LISP-USER::F-UTILIZADE
-
-;     (MOST-NEGATIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-
-;     (MOST-POSITIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-; 
-; compilation unit finished
-;   Undefined functions:
-;     F-SUCESSORES F-UTILIDADE F-UTILIZADE MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
-;   caught 2 WARNING conditions
-;   caught 3 STYLE-WARNING conditions
-
-; in: DEFUN ALFABETA
-;     (FUNCALL F-UTILIZADE NO)
-; --> SB-C::%FUNCALL THE 
-; ==>
-;   (SB-KERNEL:%COERCE-CALLABLE-FOR-CALL F-UTILIZADE)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::F-UTILIZADE
-
-;     (MOST-NEGATIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-
-;     (MOST-POSITIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-; 
-; compilation unit finished
-;   Undefined functions:
-;     MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
-;   Undefined variable:
-;     F-UTILIZADE
-;   caught 3 WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-
-; in: DEFUN ALFABETA
-;     (MOST-NEGATIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-NEGATIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-
-;     (MOST-POSITIVE-FIXNUM)
-; 
-; caught WARNING:
-;   The function MOST-POSITIVE-FIXNUM is undefined, and its name is reserved by
-;   ANSI CL so that even if it were defined later, the code doing so would not be
-;   portable.
-; 
-; compilation unit finished
-;   Undefined functions:
-;     MOST-NEGATIVE-FIXNUM MOST-POSITIVE-FIXNUM
-;   caught 2 WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-(most-positive-fixnum)
-(most-positive-fixnum)
-(most-positive-fixnum)
-CL-USER> 
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-
-va
-CL-USER> 
-; in: DEFUN PONTUACAO
-;     (ESTADO-PECAS-JOGADOR JOGADOR)
-; 
-; caught STYLE-WARNING:
-;   The function ESTADO-PECAS-JOGADOR is called with one argument, but wants exactly two.
-
-;     (SB-INT:NAMED-LAMBDA PONTUACAO
-;         (ESTADO JOGADOR)
-;       (BLOCK PONTUACAO
-;         (LET ((PECAS #))
-;           (- 110 (+ # # #)))))
-; 
-; caught STYLE-WARNING:
-;   The variable ESTADO is defined but never used.
-; 
-; compilation unit finished
-;   caught 2 STYLE-WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::PONTUACAO in DEFUN
-(pontuacao (estado-inicial) 1)
-(pontuacao (estado-inicial) 2)
-0
-
-CL-USER> 
-(pontuacao (estado-inicial) 2)
-0
-
-CL-USER> (utilidade (estado-inicial) 1 2)
-(utilidade (estado-inicial) 1 2)
-0
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NO in DEFUN
-((criar-f-utilidade 1 2) (estado-inicial))
-((criar-f-utilidade 1 2) (estado-inicial))
-; in: (CRIAR-F-UTILIDADE 1 2) (ESTADO-INICIAL)
-;     ((CRIAR-F-UTILIDADE 1 2) (ESTADO-INICIAL))
-; 
-; caught ERROR:
-;   illegal function call
-; 
-; compilation unit finished
-;   caught 1 ERROR condition
-
-CL-USER> (criar-f-utilidade 1 2)
-(criar-f-utilidade 1 2)
-#<CLOSURE (LAMBDA (ESTADO) :IN CRIAR-F-UTILIDADE) {100217251B}>
-
-CL-USER> (funcall (criar-f-utilidade 1 2) (estado-inicial))
-(funcall (criar-f-utilidade 1 2) (estado-inicial))
-0
-
-CL-USER> 
-; in: DEFUN CRIAR-F-UTILIDADE
-;     (NO-ESTADO ESTADO)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::ESTADO
-; 
-; compilation unit finished
-;   Undefined variable:
-;     ESTADO
-;   caught 1 WARNING condition
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-(defun no-inicial ()
-    (list (estado-inicial) nil)
-)
-
-(defun estado-inicial ()
-    (list (tabuleiro-vazio) (pecas-iniciais) (pecas-iniciais))
-)
-
-(defun criar-estado (tabuleiro pecas-jogador-1 pecas-jogador-2)
-    (list tabuleiro pecas-jogador-1 pecas-jogador-2)
-)
-
-(defun criar-no (estado ultima-jogada)
-    (list estado ultima-jogada)
-)
-
-(defun no-estado (no)
-    (first no)
-)
-
-(defun no-jogada (no)
-    (second no)
-)
-
-(defun estado-tabuleiro (estado)
-    (first estado)
-)
-
-(defun estado-pecas-jogador (estado jogador)
-    (nth jogador estado)
-)
-
-(defun tabuleiro-vazio () 
-    '(
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-)
-
-(defun pecas-iniciais ()
-    '(10 10 15)
-)
-
-(defun peca-c-h ()
-    "Peça C horizontal descrita como uma matriz 3x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (0 1 1)
-            (1 1 0)
-        )
-        (
-            ((sup-esq) (-1 0))
-            ((sup-dir inf-dir) (-2 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq sup-esq) (0 -1))
-        )
-    )
-)
-
-(defun peca-c-v ()
-    "Peça C vertical descrita como uma matriz 2x3 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 0)
-            (1 1)
-            (0 1)
-        )
-        (
-            ((sup-dir) (-1 -1))
-            ((inf-dir inf-esq) (-1 -2))
-            ((inf-esq) (0 -1))
-            ((sup-esq sup-dir) (0 0))
-        )
-    )
-)
-
-(defun peca-a ()
-    "Peça A descrita como uma matriz 1x1 e uma lista de 1 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1)
-        )
-        (
-            ((sup-dir inf-dir inf-esq sup-esq) (0 0))
-        )
-    )
-)
-
-(defun peca-b ()
-    "Peça B descrita como uma matriz 2x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 1)
-            (1 1)
-        )
-        (
-            ((sup-dir) (-1 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq) (0 -1))
-            ((sup-esq) (0 0))
-        )
-    )
-)
-
-(defun operadores ()
-    "Devolve os simbolos relativos às 4 peças concretas do jogo"
-    (list 'peca-a  'peca-b 'peca-c-h 'peca-c-v)
-)
-
-;;; Métodos auxiliares
-
-(defun celula (row col tabuleiro)
-    "Retorna uma celula na linha e coluna do tabuleiro"
-  (nth col (nth row tabuleiro)))
-
-(defun substituir-posicao (idx line &optional (value 1))
-    "Substitui a célula na posição idx da linha recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current line)) nil)
-                    ((= current idx) (cons value (recursive (1+ current))))
-                    (t (cons (nth current line) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun substituir (row col tabuleiro &optional (value 1))
-    "Substitui a célula na posição row col recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current tabuleiro)) nil)
-                    ((= current row) (cons (substituir-posicao col (nth current tabuleiro) value) (recursive (1+ current))))
-                    (t (cons (nth current tabuleiro) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun list-0-to-n (n)
-    "Devolve uma lista de 0 a n"
-    (cond 
-        ((< n 0) nil)
-        (t (append (list-0-to-n (1- n)) (list n))) 
-    )
-)
-
-(defun remove-from-list (l index &optional (i 0))
-  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimensão (1- (length l))"
-    (cond 
-        ((= i index) (cdr l))
-        (t (cons (car l) (remove-from-list (cdr l) index (1+ i))))
-    )
-)
-
-(defun shuffle-list (l &optional (shuffled-list nil) (indexes nil) (init nil))
-    "Baralha a lista l aleatóriamente"
-    (cond
-        ((null init) (shuffle-list l shuffled-list (list-0-to-n (1- (length l))) t ))
-        ((null indexes) shuffled-list)
-        (t
-            (let* ((random-n (random (length indexes)))
-                    (random-index (nth random-n indexes)))
-
-                (shuffle-list l (cons (nth random-index l) shuffled-list) (remove-from-list indexes random-n) init)        
-            ) 
-        )
-    )
-)
-
-(defun eliminar-duplicados (L)
-    "Elimina elementos duplicados numa lista L"
-  (cond ((null L) L)
-        ((member (car L) (cdr L) :test #'equal)
-         (eliminar-duplicados (cdr L)))
-        (t (cons (car L) (eliminar-duplicados (cdr L))))))
-
-
-
-(defun obter-vizinhanca (tabuleiro x y)
-    "Obtem uma matriz 3x3 que representa a vizinhança de uma célula no tabuleiro
-    Representa espaços fora do tabuleiro com o valor -1"
-    (labels (
-        (recursive (tabuleiro i)
-            (cond 
-                ((null tabuleiro) nil)
-                ((and (listp (car tabuleiro)) (> (abs (- i y)) 1)) (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                ((and (listp (car tabuleiro)) (<= (abs (- i y)) 1)) (cons  (recursive (car tabuleiro) 0) (recursive (cdr tabuleiro) (1+ i))))
-                ((null (car tabuleiro)) nil)
-                (t 
-                    (cond
-                        ((<= (abs (- i x)) 1) (cons (car tabuleiro) (recursive (cdr tabuleiro) (1+ i))))
-                        (t (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                    )
-                )
-            )
-        )
-    ) 
-    (let* 
-        (
-            (obtidos (mapcar (lambda (linha) (remove nil linha)) (remove nil (recursive tabuleiro 0) )))
-            (obtidos-colunas-corrigidas
-                (cond 
-                    ((= (length (car obtidos)) 2)
-                        (cond
-                            ((= x 0) (mapcar (lambda (linha)
-                                (cons -1 linha)
-                            ) obtidos))
-                            (t (mapcar (lambda (linha) 
-                                (append linha '(-1))
-                            ) obtidos))
-                        )
-                    )
-                    (t obtidos)
-                )
-            )
-            (obtidos-linhas-corrigidas
-                (cond
-                    ((= (length obtidos-colunas-corrigidas) 2) 
-                        (cond
-                            ((= y 0) (cons '(-1 -1 -1) obtidos-colunas-corrigidas))
-                            (t (append obtidos-colunas-corrigidas '((-1 -1 -1))))
-                        )
-                    )
-                    (t obtidos-colunas-corrigidas)
-                )
-            )
-        )
-        obtidos-linhas-corrigidas
-    )
-    ) 
-)
-
-(defun espacos-validos (tabuleiro jogador)
-    "Procura espaços validos para jogar no tabuleiro
-    Devolve lista de listas com par de coordenadas e lista de direções diagonais de contacto
-    (sup-esq, sup-dir, inf-esq, inf-dir)"
-    (labels
-        (
-            (recursive (_tabuleiro x y)
-                (cond
-                    ((null _tabuleiro) nil)
-                    ((listp (car _tabuleiro)) (append  (recursive (car _tabuleiro) 0 y) (recursive (cdr _tabuleiro) 0 (1+ y))))
-                    ((null (car _tabuleiro)) nil)
-                    (t 
-                        (cond 
-                            ((/= (car _tabuleiro) 0) (append nil (recursive (cdr _tabuleiro) (1+ x) y)))
-                            (t 
-                                (let*
-                                    (
-                                        (vizinhanca (obter-vizinhanca tabuleiro x y))
-                                        ;; Verificar se não existem peças colocadas nas laterais
-                                        ;; e existe pelo menos uma peça nas diagonais
-                                        (decisao (and 
-                                            (not (or 
-                                                (= (second (first vizinhanca)) jogador)
-                                                (= (first (second vizinhanca)) jogador)
-                                                (= (third (second vizinhanca)) jogador)
-                                                (= (second (third vizinhanca)) jogador)
-                                                ))
-                                            (or
-                                                (= (first (first vizinhanca)) jogador)
-                                                (= (third (first vizinhanca)) jogador)
-                                                (= (first (third vizinhanca)) jogador)
-                                                (= (third (third vizinhanca)) jogador)
-                                            )
-                                            ))
-                                        (direcoes-de-contato
-                                            (remove nil (cons (if (= (first (first vizinhanca)) jogador) 'sup-esq nil) 
-                                                (cons (if (= (third (first vizinhanca)) jogador) 'sup-dir nil) 
-                                                    (cons (if (= (first (third vizinhanca)) jogador) 'inf-esq nil) 
-                                                        (cons (if (= (third (third vizinhanca)) jogador) 'inf-dir nil) nil)))))
-                                        )
-                                    ) 
-                                    (append (if decisao (list (list (list x y) direcoes-de-contato)) nil) (recursive (cdr _tabuleiro) (1+ x) y))
-                                )
-                            )
-                        )
-                    
-                    )
-                )
-            )
-        )
-        (cond
-            ((tabuleiro-vaziop tabuleiro jogador)
-                (cond
-                    ((= jogador 1) '(((0 0) (sup-esq))))
-                    ((= jogador 2) '(((13 13) (inf-dir))))
-                )
-            )
-            (t (recursive tabuleiro 0 0))
-        )
-        
-    )
-)
-
-(defun tabuleiro-vaziop (tabuleiro &optional (jogador 1))
-    "Função que avlia se um tabuleiro fornecido não tem peças colocadas pelo jogador"
-    (cond
-        ((null tabuleiro) t)
-        ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro)) (tabuleiro-vaziop (cdr tabuleiro))))
-        ((/= (car tabuleiro) jogador) (and t (tabuleiro-vaziop (cdr tabuleiro))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-com-peca ( posicoes peca)
-    "Obtem uma lista de potenciais colocações da peça no tabuleiro
-    que deve ainda ser testada na prática"
-    (eliminar-duplicados (apply #'append (mapcar (lambda (posicao)
-             (remove nil (potenciais-colocacoes  posicao (deslocacoes-peca peca)))
-        )
-     posicoes)))
-)
-
-(defun potenciais-colocacoes (posicao deslocacoes)
-    "Devolve a resolução em colocações concretas da peça ao comparar a lista de deslocacoes da peça
-    com os contatos da posicao recebida."
-    (cond
-        ((null deslocacoes) nil)
-        ((lista-contem-todos (first (car deslocacoes)) (second posicao)) (let 
-            (
-                (x (+ (first (first posicao)) (first (second (car deslocacoes)))))
-                (y (+ (second (first posicao)) (second (second (car deslocacoes)))))
-            )
-            (cond
-                ((or (< x 0) (< y 0)) (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-                (t (cons (list x y) (potenciais-colocacoes posicao (cdr deslocacoes))))
-            )
-        ))
-        (t (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-    )
-)
-
-(defun lista-contem-todos (lista elementos)
-    "Verifica se a lista recebida contém todos os elementos"
-    (cond
-        ((null elementos) t)
-        ((member (car elementos) lista) (and t (lista-contem-todos  lista (cdr elementos))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-por-peca (estado operadores jogador)
-    "Obtém todas as potenciais colocações por peça no tabuleiro considerando as peças restantes na mão.
-    Todas as colocações devolvidas devem primeiro ser testadas em prática.
-    Devolve lista de listas com operador e uma lista de potencias colocações em listas de coordenas x y."
-    (let
-        (
-            (posicoes-validas (espacos-validos (first estado) jogador))
-        )
-        (mapcar (lambda (operador)
-            (cond
-                ((tem-peca operador (estado-pecas-jogador estado jogador)) (list operador (potenciais-colocacoes-com-peca posicoes-validas (funcall operador))))
-                (t nil)            
-            )
-            
-        ) operadores)
-    )
-)
-
-(defun tem-peca (peca mao)
-    "Valida se uma peça existe na mão do jogador"
-    (cond
-        ((equal peca 'peca-a) (> (first mao) 0))
-        ((equal peca 'peca-b) (> (second mao) 0))
-        ((or (equal peca 'peca-c-h) (equal peca 'peca-c-v)) (> (third mao) 0))
-        (t nil)
-    )
-)
-
-(defun peca-casas-ocupadas (x y peca)
-    "Retorna uma lista de listas de coordenas que são as casa ocupadas concretamente de jogar
-    a peça nas posições x y"
-  (labels
-    (
-      (recursivo (matriz-peca i j)
-        (cond
-          ((null (car matriz-peca)) nil)
-          ((listp (car matriz-peca)) (append (recursivo (car matriz-peca) 0 j) (recursivo (cdr matriz-peca) 0 (1+ j))))
-          (t 
-            (cond
-              ((= (car matriz-peca) 1) (cons (list (+ x i) (+ y j)) (recursivo (cdr matriz-peca) (1+ i) j)))
-              (t (cons nil (recursivo (cdr matriz-peca) (1+ i) j)))
-            )
-          )
-        )
-      )
-    )
-    (remove nil (recursivo (first peca) 0 0))
-  )
-)
-
-
-(defun valida-casas (tabuleiro casas jogador)
-    "Valida se é possível jogar no tabuleiro nas casas"
-    (cond
-        ((null casas) t)
-        ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
-            (< (first (car casas)) 0) (< (second (car casas)) 0)
-        ) nil)
-        (t 
-            (let ((vizinhanca (obter-vizinhanca tabuleiro (first (car casas)) (second (car casas)))))
-                (and
-                    (and (= (second (second vizinhanca)) 0)
-                        (not (or 
-                            (= (second (first vizinhanca)) jogador)
-                            (= (first (second vizinhanca)) jogador)
-                            (= (third (second vizinhanca)) jogador)
-                            (= (second (third vizinhanca)) jogador)
-                        ))
-                    )
-                (valida-casas tabuleiro (cdr casas) jogador) )
-            )
-        )
-    )
-)
-
-(defun atualizar-mao (mao peca-jogada)
-    "Devolve uma nova mão sem a peça jogada"
-    (cond
-        ((equal peca-jogada 'peca-a) (list (1- (first mao)) (second mao) (third mao)))
-        ((equal peca-jogada 'peca-b) (list (first mao) (1- (second mao)) (third mao)))
-        ((or (equal peca-jogada 'peca-c-h) (equal peca-jogada 'peca-c-v)) (list (first mao) (second mao) (1- (third mao))))
-    )
-)
-
-(defun ocupar-casas (tabuleiro casas jogador)
-    "Imprime a peça sobre o tabuleiro, devolvendo um novo tabuleiro"
-    (cond
-        ((null casas) tabuleiro)
-        (t (ocupar-casas (substituir (second (car casas)) (first (car casas)) tabuleiro jogador) (cdr casas)))
-    )
-)
-
-
-
-(defun criar-f-sucessores (jogador-proprio jogador-adversario)
-    (lambda (no jogador-max) 
-        (sucessores no (if jogador-max jogador-proprio jogador-adversario) 'operadores)
-    )
-)
-
-
-(defun sucessores (no jogador operadores)
-    "Com base no nó e nos operadores disponíveis, devolve uma lista de sucessores válidos"
-    (shuffle-list (apply #'append (mapcar (lambda (peca-colocacoes)  
-        (remove nil (mapcar (lambda (colocacao)
-            (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))
-                (cond 
-                    ((valida-casas (first (no-estado no)) casas-ocupadas)
-                        ; (list
-                        ;     (list
-                        ;         (ocupar-casas (first (no-estado no)) casas-ocupadas)
-                        ;         (atualizar-mao (second (no-estado no)) (first peca-colocacoes)))
-                        ;     (1+ (no-profundidade no))
-                        ;     no)
-                        (let
-                            (
-                                (novo-estado (criar-novo-estado estado casas-ocupadas (first peca-colocacoes) jogador))
-                            )
-                            (criar-no novo-estado (list (first peca-colocacoes) colocacao))
-                        )
-                    )
-                        
-                    (t nil)
-                )
-            )
-        ) (second peca-colocacoes)))
-    ) (potenciais-colocacoes-por-peca (no-estado no) operadores ))))
-)
-
-(defun criar-novo-estado (estado casas-a-ocupar peca jogador)
-    (if (= jogador 1)
-        (criar-estado (ocupar-casas (estado-tabuleiro (no-estado no)) casas-ocupadas jogador) (atualizar-mao (pecas-jogador-1 (no-estado no)) peca) (pecas-jogador-2))
-        (criar-estado (ocupar-casas (estado-tabuleiro (no-estado no)) casas-ocupadas jogador) (pecas-jogador-1) (atualizar-mao (pecas-jogador-2 (no-estado no)) peca))
-    )
-)
-
-(defun criar-f-utilidade (jogador-proprio jogador-adversario)
-    (lambda (no)
-        (- (pontuacao (no-estado no) jogador-proprio) (pontuacao (no-estado no) jogador-adversario))
-    )
-)
-
-
-(defun pontuacao (estado jogador)
-    (let (
-        (pecas (estado-pecas-jogador estado jogador))
-        )
-        (- 110 (+ (first pecas) (* (second pecas) 4) (* (third pecas) 4)))
-    )
-)
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-INICIAL in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-JOGADA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-TABULEIRO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-PECAS-JOGADOR in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECAS-INICIAIS in DEFUN
-
-; in: DEFUN OCUPAR-CASAS
-;     (OCUPAR-CASAS
-;      (SUBSTITUIR (SECOND (CAR CASAS)) (FIRST (CAR CASAS)) TABULEIRO JOGADOR)
-;      (CDR CASAS))
-; 
-; caught WARNING:
-;   The function OCUPAR-CASAS is called with two arguments, but wants exactly three.
-; 
-; compilation unit finished
-;   caught 1 WARNING condition
-
-; in: DEFUN SUCESSORES
-;     (POTENCIAIS-COLOCACOES-POR-PECA (NO-ESTADO NO) OPERADORES)
-; 
-; caught STYLE-WARNING:
-;   The function POTENCIAIS-COLOCACOES-POR-PECA is called with two arguments, but wants exactly three.
-
-;     (VALIDA-CASAS (FIRST (NO-ESTADO NO)) CASAS-OCUPADAS)
-; 
-; caught STYLE-WARNING:
-;   The function VALIDA-CASAS is called with two arguments, but wants exactly three.
-; in: DEFUN SUCESSORES
-;     (CRIAR-NOVO-ESTADO ESTADO CASAS-OCUPADAS (FIRST PECA-COLOCACOES) JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::ESTADO
-; 
-; compilation unit finished
-;   Undefined variable:
-;     ESTADO
-;   caught 1 WARNING condition
-;   caught 2 STYLE-WARNING conditions
-
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (SB-INT:NAMED-LAMBDA CRIAR-NOVO-ESTADO
-;         (ESTADO CASAS-A-OCUPAR PECA JOGADOR)
-;       (BLOCK CRIAR-NOVO-ESTADO
-;         (IF (= JOGADOR 1)
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ATUALIZAR-MAO # PECA) (PECAS-JOGADOR-2))
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (PECAS-JOGADOR-1) (ATUALIZAR-MAO # PECA)))))
-; 
-; caught STYLE-WARNING:
-;   The variable ESTADO is defined but never used.
-; 
-; caught STYLE-WARNING:
-;   The variable CASAS-A-OCUPAR is defined but never used.
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (OCUPAR-CASAS (ESTADO-TABULEIRO (NO-ESTADO NO)) CASAS-OCUPADAS JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::CASAS-OCUPADAS
-
-;     (NO-ESTADO NO)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::NO
-
-;     (PECAS-JOGADOR-1 (NO-ESTADO NO))
-; 
-; caught STYLE-WARNING:
-;   undefined function: COMMON-LISP-USER::PECAS-JOGADOR-1
-
-;     (PECAS-JOGADOR-2)
-; 
-; caught STYLE-WARNING:
-;   undefined function: COMMON-LISP-USER::PECAS-JOGADOR-2
-; 
-; compilation unit finished
-;   Undefined functions:
-;     PECAS-JOGADOR-1 PECAS-JOGADOR-2
-;   Undefined variables:
-;     CASAS-OCUPADAS NO
-;   caught 2 WARNING conditions
-;   caught 4 STYLE-WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PONTUACAO in DEFUN
-
-PONTUACAO
-
-CL-USER> 
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (SB-INT:NAMED-LAMBDA CRIAR-NOVO-ESTADO
-;         (ESTADO CASAS-A-OCUPAR PECA JOGADOR)
-;       (BLOCK CRIAR-NOVO-ESTADO
-;         (IF (= JOGADOR 1)
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ATUALIZAR-MAO # PECA) (ESTADO-PECAS-JOGADOR # 2))
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ESTADO-PECAS-JOGADOR # 1) (ATUALIZAR-MAO # PECA)))))
-; 
-; caught STYLE-WARNING:
-;   The variable ESTADO is defined but never used.
-; 
-; caught STYLE-WARNING:
-;   The variable CASAS-A-OCUPAR is defined but never used.
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (OCUPAR-CASAS (ESTADO-TABULEIRO (NO-ESTADO NO)) CASAS-OCUPADAS JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::CASAS-OCUPADAS
-
-;     (NO-ESTADO NO)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::NO
-; 
-; compilation unit finished
-;   Undefined variables:
-;     CASAS-OCUPADAS NO
-;   caught 2 WARNING conditions
-;   caught 2 STYLE-WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (SB-INT:NAMED-LAMBDA CRIAR-NOVO-ESTADO
-;         (ESTADO CASAS-A-OCUPAR PECA JOGADOR)
-;       (BLOCK CRIAR-NOVO-ESTADO
-;         (IF (= JOGADOR 1)
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ATUALIZAR-MAO # PECA) (ESTADO-PECAS-JOGADOR # 2))
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ESTADO-PECAS-JOGADOR # 1) (ATUALIZAR-MAO # PECA)))))
-; 
-; caught STYLE-WARNING:
-;   The variable ESTADO is defined but never used.
-; 
-; caught STYLE-WARNING:
-;   The variable CASAS-A-OCUPAR is defined but never used.
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (OCUPAR-CASAS (ESTADO-TABULEIRO (NO-ESTADO NO)) CASAS-OCUPADAS JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::CASAS-OCUPADAS
-
-;     (NO-ESTADO NO)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::NO
-; 
-; compilation unit finished
-;   Undefined variables:
-;     CASAS-OCUPADAS NO
-;   caught 2 WARNING conditions
-;   caught 2 STYLE-WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (SB-INT:NAMED-LAMBDA CRIAR-NOVO-ESTADO
-;         (ESTADO CASAS-A-OCUPAR PECA JOGADOR)
-;       (BLOCK CRIAR-NOVO-ESTADO
-;         (IF (= JOGADOR 1)
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ATUALIZAR-MAO # PECA) (ESTADO-PECAS-JOGADOR ESTADO 2))
-;             (CRIAR-ESTADO (OCUPAR-CASAS # CASAS-OCUPADAS JOGADOR)
-;                           (ESTADO-PECAS-JOGADOR ESTADO 1)
-;                           (ATUALIZAR-MAO # PECA)))))
-; 
-; caught STYLE-WARNING:
-;   The variable CASAS-A-OCUPAR is defined but never used.
-; in: DEFUN CRIAR-NOVO-ESTADO
-;     (OCUPAR-CASAS (ESTADO-TABULEIRO ESTADO) CASAS-OCUPADAS JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::CASAS-OCUPADAS
-; 
-; compilation unit finished
-;   Undefined variable:
-;     CASAS-OCUPADAS
-;   caught 1 WARNING condition
-;   caught 1 STYLE-WARNING condition
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OCUPAR-CASAS in DEFUN
-
-(defun no-inicial ()
-    (list (estado-inicial) nil)
-)
-
-(defun estado-inicial ()
-    (list (tabuleiro-vazio) (pecas-iniciais) (pecas-iniciais))
-)
-
-(defun criar-estado (tabuleiro pecas-jogador-1 pecas-jogador-2)
-    (list tabuleiro pecas-jogador-1 pecas-jogador-2)
-)
-
-(defun criar-no (estado ultima-jogada)
-    (list estado ultima-jogada)
-)
-
-(defun no-estado (no)
-    (first no)
-)
-
-(defun no-jogada (no)
-    (second no)
-)
-
-(defun estado-tabuleiro (estado)
-    (first estado)
-)
-
-(defun estado-pecas-jogador (estado jogador)
-    (nth jogador estado)
-)
-
-(defun tabuleiro-vazio () 
-    '(
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-)
-
-(defun pecas-iniciais ()
-    '(10 10 15)
-)
-
-(defun peca-c-h ()
-    "Peça C horizontal descrita como uma matriz 3x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (0 1 1)
-            (1 1 0)
-        )
-        (
-            ((sup-esq) (-1 0))
-            ((sup-dir inf-dir) (-2 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq sup-esq) (0 -1))
-        )
-    )
-)
-
-(defun peca-c-v ()
-    "Peça C vertical descrita como uma matriz 2x3 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 0)
-            (1 1)
-            (0 1)
-        )
-        (
-            ((sup-dir) (-1 -1))
-            ((inf-dir inf-esq) (-1 -2))
-            ((inf-esq) (0 -1))
-            ((sup-esq sup-dir) (0 0))
-        )
-    )
-)
-
-(defun peca-a ()
-    "Peça A descrita como uma matriz 1x1 e uma lista de 1 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1)
-        )
-        (
-            ((sup-dir inf-dir inf-esq sup-esq) (0 0))
-        )
-    )
-)
-
-(defun peca-b ()
-    "Peça B descrita como uma matriz 2x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 1)
-            (1 1)
-        )
-        (
-            ((sup-dir) (-1 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq) (0 -1))
-            ((sup-esq) (0 0))
-        )
-    )
-)
-
-(defun operadores ()
-    "Devolve os simbolos relativos às 4 peças concretas do jogo"
-    (list 'peca-a  'peca-b 'peca-c-h 'peca-c-v)
-)
-
-;;; Métodos auxiliares
-
-(defun celula (row col tabuleiro)
-    "Retorna uma celula na linha e coluna do tabuleiro"
-  (nth col (nth row tabuleiro)))
-
-(defun substituir-posicao (idx line &optional (value 1))
-    "Substitui a célula na posição idx da linha recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current line)) nil)
-                    ((= current idx) (cons value (recursive (1+ current))))
-                    (t (cons (nth current line) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun substituir (row col tabuleiro &optional (value 1))
-    "Substitui a célula na posição row col recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current tabuleiro)) nil)
-                    ((= current row) (cons (substituir-posicao col (nth current tabuleiro) value) (recursive (1+ current))))
-                    (t (cons (nth current tabuleiro) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun list-0-to-n (n)
-    "Devolve uma lista de 0 a n"
-    (cond 
-        ((< n 0) nil)
-        (t (append (list-0-to-n (1- n)) (list n))) 
-    )
-)
-
-(defun remove-from-list (l index &optional (i 0))
-  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimensão (1- (length l))"
-    (cond 
-        ((= i index) (cdr l))
-        (t (cons (car l) (remove-from-list (cdr l) index (1+ i))))
-    )
-)
-
-(defun shuffle-list (l &optional (shuffled-list nil) (indexes nil) (init nil))
-    "Baralha a lista l aleatóriamente"
-    (cond
-        ((null init) (shuffle-list l shuffled-list (list-0-to-n (1- (length l))) t ))
-        ((null indexes) shuffled-list)
-        (t
-            (let* ((random-n (random (length indexes)))
-                    (random-index (nth random-n indexes)))
-
-                (shuffle-list l (cons (nth random-index l) shuffled-list) (remove-from-list indexes random-n) init)        
-            ) 
-        )
-    )
-)
-
-(defun eliminar-duplicados (L)
-    "Elimina elementos duplicados numa lista L"
-  (cond ((null L) L)
-        ((member (car L) (cdr L) :test #'equal)
-         (eliminar-duplicados (cdr L)))
-        (t (cons (car L) (eliminar-duplicados (cdr L))))))
-
-
-
-(defun obter-vizinhanca (tabuleiro x y)
-    "Obtem uma matriz 3x3 que representa a vizinhança de uma célula no tabuleiro
-    Representa espaços fora do tabuleiro com o valor -1"
-    (labels (
-        (recursive (tabuleiro i)
-            (cond 
-                ((null tabuleiro) nil)
-                ((and (listp (car tabuleiro)) (> (abs (- i y)) 1)) (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                ((and (listp (car tabuleiro)) (<= (abs (- i y)) 1)) (cons  (recursive (car tabuleiro) 0) (recursive (cdr tabuleiro) (1+ i))))
-                ((null (car tabuleiro)) nil)
-                (t 
-                    (cond
-                        ((<= (abs (- i x)) 1) (cons (car tabuleiro) (recursive (cdr tabuleiro) (1+ i))))
-                        (t (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                    )
-                )
-            )
-        )
-    ) 
-    (let* 
-        (
-            (obtidos (mapcar (lambda (linha) (remove nil linha)) (remove nil (recursive tabuleiro 0) )))
-            (obtidos-colunas-corrigidas
-                (cond 
-                    ((= (length (car obtidos)) 2)
-                        (cond
-                            ((= x 0) (mapcar (lambda (linha)
-                                (cons -1 linha)
-                            ) obtidos))
-                            (t (mapcar (lambda (linha) 
-                                (append linha '(-1))
-                            ) obtidos))
-                        )
-                    )
-                    (t obtidos)
-                )
-            )
-            (obtidos-linhas-corrigidas
-                (cond
-                    ((= (length obtidos-colunas-corrigidas) 2) 
-                        (cond
-                            ((= y 0) (cons '(-1 -1 -1) obtidos-colunas-corrigidas))
-                            (t (append obtidos-colunas-corrigidas '((-1 -1 -1))))
-                        )
-                    )
-                    (t obtidos-colunas-corrigidas)
-                )
-            )
-        )
-        obtidos-linhas-corrigidas
-    )
-    ) 
-)
-
-(defun espacos-validos (tabuleiro jogador)
-    "Procura espaços validos para jogar no tabuleiro
-    Devolve lista de listas com par de coordenadas e lista de direções diagonais de contacto
-    (sup-esq, sup-dir, inf-esq, inf-dir)"
-    (labels
-        (
-            (recursive (_tabuleiro x y)
-                (cond
-                    ((null _tabuleiro) nil)
-                    ((listp (car _tabuleiro)) (append  (recursive (car _tabuleiro) 0 y) (recursive (cdr _tabuleiro) 0 (1+ y))))
-                    ((null (car _tabuleiro)) nil)
-                    (t 
-                        (cond 
-                            ((/= (car _tabuleiro) 0) (append nil (recursive (cdr _tabuleiro) (1+ x) y)))
-                            (t 
-                                (let*
-                                    (
-                                        (vizinhanca (obter-vizinhanca tabuleiro x y))
-                                        ;; Verificar se não existem peças colocadas nas laterais
-                                        ;; e existe pelo menos uma peça nas diagonais
-                                        (decisao (and 
-                                            (not (or 
-                                                (= (second (first vizinhanca)) jogador)
-                                                (= (first (second vizinhanca)) jogador)
-                                                (= (third (second vizinhanca)) jogador)
-                                                (= (second (third vizinhanca)) jogador)
-                                                ))
-                                            (or
-                                                (= (first (first vizinhanca)) jogador)
-                                                (= (third (first vizinhanca)) jogador)
-                                                (= (first (third vizinhanca)) jogador)
-                                                (= (third (third vizinhanca)) jogador)
-                                            )
-                                            ))
-                                        (direcoes-de-contato
-                                            (remove nil (cons (if (= (first (first vizinhanca)) jogador) 'sup-esq nil) 
-                                                (cons (if (= (third (first vizinhanca)) jogador) 'sup-dir nil) 
-                                                    (cons (if (= (first (third vizinhanca)) jogador) 'inf-esq nil) 
-                                                        (cons (if (= (third (third vizinhanca)) jogador) 'inf-dir nil) nil)))))
-                                        )
-                                    ) 
-                                    (append (if decisao (list (list (list x y) direcoes-de-contato)) nil) (recursive (cdr _tabuleiro) (1+ x) y))
-                                )
-                            )
-                        )
-                    
-                    )
-                )
-            )
-        )
-        (cond
-            ((tabuleiro-vaziop tabuleiro jogador)
-                (cond
-                    ((= jogador 1) '(((0 0) (sup-esq))))
-                    ((= jogador 2) '(((13 13) (inf-dir))))
-                )
-            )
-            (t (recursive tabuleiro 0 0))
-        )
-        
-    )
-)
-
-(defun tabuleiro-vaziop (tabuleiro &optional (jogador 1))
-    "Função que avlia se um tabuleiro fornecido não tem peças colocadas pelo jogador"
-    (cond
-        ((null tabuleiro) t)
-        ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro)) (tabuleiro-vaziop (cdr tabuleiro))))
-        ((/= (car tabuleiro) jogador) (and t (tabuleiro-vaziop (cdr tabuleiro))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-com-peca ( posicoes peca)
-    "Obtem uma lista de potenciais colocações da peça no tabuleiro
-    que deve ainda ser testada na prática"
-    (eliminar-duplicados (apply #'append (mapcar (lambda (posicao)
-             (remove nil (potenciais-colocacoes  posicao (deslocacoes-peca peca)))
-        )
-     posicoes)))
-)
-
-(defun potenciais-colocacoes (posicao deslocacoes)
-    "Devolve a resolução em colocações concretas da peça ao comparar a lista de deslocacoes da peça
-    com os contatos da posicao recebida."
-    (cond
-        ((null deslocacoes) nil)
-        ((lista-contem-todos (first (car deslocacoes)) (second posicao)) (let 
-            (
-                (x (+ (first (first posicao)) (first (second (car deslocacoes)))))
-                (y (+ (second (first posicao)) (second (second (car deslocacoes)))))
-            )
-            (cond
-                ((or (< x 0) (< y 0)) (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-                (t (cons (list x y) (potenciais-colocacoes posicao (cdr deslocacoes))))
-            )
-        ))
-        (t (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-    )
-)
-
-(defun lista-contem-todos (lista elementos)
-    "Verifica se a lista recebida contém todos os elementos"
-    (cond
-        ((null elementos) t)
-        ((member (car elementos) lista) (and t (lista-contem-todos  lista (cdr elementos))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-por-peca (estado operadores jogador)
-    "Obtém todas as potenciais colocações por peça no tabuleiro considerando as peças restantes na mão.
-    Todas as colocações devolvidas devem primeiro ser testadas em prática.
-    Devolve lista de listas com operador e uma lista de potencias colocações em listas de coordenas x y."
-    (let
-        (
-            (posicoes-validas (espacos-validos (first estado) jogador))
-        )
-        (mapcar (lambda (operador)
-            (cond
-                ((tem-peca operador (estado-pecas-jogador estado jogador)) (list operador (potenciais-colocacoes-com-peca posicoes-validas (funcall operador))))
-                (t nil)            
-            )
-            
-        ) operadores)
-    )
-)
-
-(defun tem-peca (peca mao)
-    "Valida se uma peça existe na mão do jogador"
-    (cond
-        ((equal peca 'peca-a) (> (first mao) 0))
-        ((equal peca 'peca-b) (> (second mao) 0))
-        ((or (equal peca 'peca-c-h) (equal peca 'peca-c-v)) (> (third mao) 0))
-        (t nil)
-    )
-)
-
-(defun peca-casas-ocupadas (x y peca)
-    "Retorna uma lista de listas de coordenas que são as casa ocupadas concretamente de jogar
-    a peça nas posições x y"
-  (labels
-    (
-      (recursivo (matriz-peca i j)
-        (cond
-          ((null (car matriz-peca)) nil)
-          ((listp (car matriz-peca)) (append (recursivo (car matriz-peca) 0 j) (recursivo (cdr matriz-peca) 0 (1+ j))))
-          (t 
-            (cond
-              ((= (car matriz-peca) 1) (cons (list (+ x i) (+ y j)) (recursivo (cdr matriz-peca) (1+ i) j)))
-              (t (cons nil (recursivo (cdr matriz-peca) (1+ i) j)))
-            )
-          )
-        )
-      )
-    )
-    (remove nil (recursivo (first peca) 0 0))
-  )
-)
-
-
-(defun valida-casas (tabuleiro casas jogador)
-    "Valida se é possível jogar no tabuleiro nas casas"
-    (cond
-        ((null casas) t)
-        ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
-            (< (first (car casas)) 0) (< (second (car casas)) 0)
-        ) nil)
-        (t 
-            (let ((vizinhanca (obter-vizinhanca tabuleiro (first (car casas)) (second (car casas)))))
-                (and
-                    (and (= (second (second vizinhanca)) 0)
-                        (not (or 
-                            (= (second (first vizinhanca)) jogador)
-                            (= (first (second vizinhanca)) jogador)
-                            (= (third (second vizinhanca)) jogador)
-                            (= (second (third vizinhanca)) jogador)
-                        ))
-                    )
-                (valida-casas tabuleiro (cdr casas) jogador) )
-            )
-        )
-    )
-)
-
-(defun atualizar-mao (mao peca-jogada)
-    "Devolve uma nova mão sem a peça jogada"
-    (cond
-        ((equal peca-jogada 'peca-a) (list (1- (first mao)) (second mao) (third mao)))
-        ((equal peca-jogada 'peca-b) (list (first mao) (1- (second mao)) (third mao)))
-        ((or (equal peca-jogada 'peca-c-h) (equal peca-jogada 'peca-c-v)) (list (first mao) (second mao) (1- (third mao))))
-    )
-)
-
-(defun ocupar-casas (tabuleiro casas jogador)
-    "Imprime a peça sobre o tabuleiro, devolvendo um novo tabuleiro"
-    (cond
-        ((null casas) tabuleiro)
-        (t (ocupar-casas (substituir (second (car casas)) (first (car casas)) tabuleiro jogador) (cdr casas) jogador))
-    )
-)
-
-
-
-(defun criar-f-sucessores (jogador-proprio jogador-adversario)
-    (lambda (no jogador-max) 
-        (sucessores no (if jogador-max jogador-proprio jogador-adversario) 'operadores)
-    )
-)
-
-
-(defun sucessores (no jogador operadores)
-    "Com base no nó e nos operadores disponíveis, devolve uma lista de sucessores válidos"
-    (shuffle-list (apply #'append (mapcar (lambda (peca-colocacoes)  
-        (remove nil (mapcar (lambda (colocacao)
-            (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))
-                (cond 
-                    ((valida-casas (first (no-estado no)) casas-ocupadas)
-                        ; (list
-                        ;     (list
-                        ;         (ocupar-casas (first (no-estado no)) casas-ocupadas)
-                        ;         (atualizar-mao (second (no-estado no)) (first peca-colocacoes)))
-                        ;     (1+ (no-profundidade no))
-                        ;     no)
-                        (let
-                            (
-                                (novo-estado (criar-novo-estado estado casas-ocupadas (first peca-colocacoes) jogador))
-                            )
-                            (criar-no novo-estado (list (first peca-colocacoes) colocacao))
-                        )
-                    )
-                        
-                    (t nil)
-                )
-            )
-        ) (second peca-colocacoes)))
-    ) (potenciais-colocacoes-por-peca (no-estado no) operadores ))))
-)
-
-(defun criar-novo-estado (estado casas-a-ocupar peca jogador)
-    (if (= jogador 1)
-        (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (atualizar-mao (estado-pecas-jogador estado 1) peca) (estado-pecas-jogador estado 2))
-        (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (estado-pecas-jogador estado 1) (atualizar-mao (estado-pecas-jogador estado 2) peca))
-    )
-)
-
-(defun criar-f-utilidade (jogador-proprio jogador-adversario)
-    (lambda (no)
-        (- (pontuacao (no-estado no) jogador-proprio) (pontuacao (no-estado no) jogador-adversario))
-    )
-)
-
-
-(defun pontuacao (estado jogador)
-    (let (
-        (pecas (estado-pecas-jogador estado jogador))
-        )
-        (- 110 (+ (first pecas) (* (second pecas) 4) (* (third pecas) 4)))
-    )
-)
-
-WARNING: redefining COMMON-LISP-USER::NO-INICIAL in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::LIST-0-TO-N in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-INICIAL in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-JOGADA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-TABULEIRO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-PECAS-JOGADOR in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECAS-INICIAIS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-C-H in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-C-V in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-A in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-B in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OPERADORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CELULA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUBSTITUIR-POSICAO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUBSTITUIR in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::REMOVE-FROM-LIST in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SHUFFLE-LIST in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ELIMINAR-DUPLICADOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OBTER-VIZINHANCA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESPACOS-VALIDOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIOP in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES-COM-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::LISTA-CONTEM-TODOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES-POR-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TEM-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-CASAS-OCUPADAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::VALIDA-CASAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ATUALIZAR-MAO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OCUPAR-CASAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-SUCESSORES in DEFUN
-
-; in: DEFUN SUCESSORES
-;     (POTENCIAIS-COLOCACOES-POR-PECA (NO-ESTADO NO) OPERADORES)
-; 
-; caught STYLE-WARNING:
-;   The function POTENCIAIS-COLOCACOES-POR-PECA is called with two arguments, but wants exactly three.
-
-;     (VALIDA-CASAS (FIRST (NO-ESTADO NO)) CASAS-OCUPADAS)
-; 
-; caught STYLE-WARNING:
-;   The function VALIDA-CASAS is called with two arguments, but wants exactly three.
-; in: DEFUN SUCESSORES
-;     (CRIAR-NOVO-ESTADO ESTADO CASAS-OCUPADAS (FIRST PECA-COLOCACOES) JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::ESTADO
-; 
-; compilation unit finished
-;   Undefined variable:
-;     ESTADO
-;   caught 1 WARNING condition
-;   caught 2 STYLE-WARNING conditions
-
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PONTUACAO in DEFUN
-
-PONTUACAO
-
-CL-USER> 
-; in: DEFUN SUCESSORES
-;     (VALIDA-CASAS (FIRST (NO-ESTADO NO)) CASAS-OCUPADAS)
-; 
-; caught STYLE-WARNING:
-;   The function VALIDA-CASAS is called with two arguments, but wants exactly three.
-; in: DEFUN SUCESSORES
-;     (CRIAR-NOVO-ESTADO ESTADO CASAS-OCUPADAS (FIRST PECA-COLOCACOES) JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::ESTADO
-; 
-; compilation unit finished
-;   Undefined variable:
-;     ESTADO
-;   caught 1 WARNING condition
-;   caught 1 STYLE-WARNING condition
-
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-
-; in: DEFUN SUCESSORES
-;     (CRIAR-NOVO-ESTADO ESTADO CASAS-OCUPADAS (FIRST PECA-COLOCACOES) JOGADOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::ESTADO
-; 
-; compilation unit finished
-;   Undefined variable:
-;     ESTADO
-;   caught 1 WARNING condition
-
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-
-(defun no-inicial ()
-    (list (estado-inicial) nil)
-)
-
-(defun estado-inicial ()
-    (list (tabuleiro-vazio) (pecas-iniciais) (pecas-iniciais))
-)
-
-(defun criar-estado (tabuleiro pecas-jogador-1 pecas-jogador-2)
-    (list tabuleiro pecas-jogador-1 pecas-jogador-2)
-)
-
-(defun criar-no (estado ultima-jogada)
-    (list estado ultima-jogada)
-)
-
-(defun no-estado (no)
-    (first no)
-)
-
-(defun no-jogada (no)
-    (second no)
-)
-
-(defun estado-tabuleiro (estado)
-    (first estado)
-)
-
-(defun estado-pecas-jogador (estado jogador)
-    (nth jogador estado)
-)
-
-(defun tabuleiro-vazio () 
-    '(
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-      (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-)
-
-(defun pecas-iniciais ()
-    '(10 10 15)
-)
-
-(defun peca-c-h ()
-    "Peça C horizontal descrita como uma matriz 3x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (0 1 1)
-            (1 1 0)
-        )
-        (
-            ((sup-esq) (-1 0))
-            ((sup-dir inf-dir) (-2 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq sup-esq) (0 -1))
-        )
-    )
-)
-
-(defun peca-c-v ()
-    "Peça C vertical descrita como uma matriz 2x3 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 0)
-            (1 1)
-            (0 1)
-        )
-        (
-            ((sup-dir) (-1 -1))
-            ((inf-dir inf-esq) (-1 -2))
-            ((inf-esq) (0 -1))
-            ((sup-esq sup-dir) (0 0))
-        )
-    )
-)
-
-(defun peca-a ()
-    "Peça A descrita como uma matriz 1x1 e uma lista de 1 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1)
-        )
-        (
-            ((sup-dir inf-dir inf-esq sup-esq) (0 0))
-        )
-    )
-)
-
-(defun peca-b ()
-    "Peça B descrita como uma matriz 2x2 e uma lista de 4 deslocações
-    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
-    da forma da peça relativamente a posicao no tabuleiro"
-    '(
-        (
-            (1 1)
-            (1 1)
-        )
-        (
-            ((sup-dir) (-1 0))
-            ((inf-dir) (-1 -1))
-            ((inf-esq) (0 -1))
-            ((sup-esq) (0 0))
-        )
-    )
-)
-
-(defun operadores ()
-    "Devolve os simbolos relativos às 4 peças concretas do jogo"
-    (list 'peca-a  'peca-b 'peca-c-h 'peca-c-v)
-)
-
-;;; Métodos auxiliares
-
-(defun celula (row col tabuleiro)
-    "Retorna uma celula na linha e coluna do tabuleiro"
-  (nth col (nth row tabuleiro)))
-
-(defun substituir-posicao (idx line &optional (value 1))
-    "Substitui a célula na posição idx da linha recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current line)) nil)
-                    ((= current idx) (cons value (recursive (1+ current))))
-                    (t (cons (nth current line) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun substituir (row col tabuleiro &optional (value 1))
-    "Substitui a célula na posição row col recebida pelo valor"
-  (labels ((recursive (current)
-              (cond ((null (nth current tabuleiro)) nil)
-                    ((= current row) (cons (substituir-posicao col (nth current tabuleiro) value) (recursive (1+ current))))
-                    (t (cons (nth current tabuleiro) (recursive (1+ current)))))))
-    (recursive 0))
-)
-
-(defun list-0-to-n (n)
-    "Devolve uma lista de 0 a n"
-    (cond 
-        ((< n 0) nil)
-        (t (append (list-0-to-n (1- n)) (list n))) 
-    )
-)
-
-(defun remove-from-list (l index &optional (i 0))
-  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimensão (1- (length l))"
-    (cond 
-        ((= i index) (cdr l))
-        (t (cons (car l) (remove-from-list (cdr l) index (1+ i))))
-    )
-)
-
-(defun shuffle-list (l &optional (shuffled-list nil) (indexes nil) (init nil))
-    "Baralha a lista l aleatóriamente"
-    (cond
-        ((null init) (shuffle-list l shuffled-list (list-0-to-n (1- (length l))) t ))
-        ((null indexes) shuffled-list)
-        (t
-            (let* ((random-n (random (length indexes)))
-                    (random-index (nth random-n indexes)))
-
-                (shuffle-list l (cons (nth random-index l) shuffled-list) (remove-from-list indexes random-n) init)        
-            ) 
-        )
-    )
-)
-
-(defun eliminar-duplicados (L)
-    "Elimina elementos duplicados numa lista L"
-  (cond ((null L) L)
-        ((member (car L) (cdr L) :test #'equal)
-         (eliminar-duplicados (cdr L)))
-        (t (cons (car L) (eliminar-duplicados (cdr L))))))
-
-
-
-(defun obter-vizinhanca (tabuleiro x y)
-    "Obtem uma matriz 3x3 que representa a vizinhança de uma célula no tabuleiro
-    Representa espaços fora do tabuleiro com o valor -1"
-    (labels (
-        (recursive (tabuleiro i)
-            (cond 
-                ((null tabuleiro) nil)
-                ((and (listp (car tabuleiro)) (> (abs (- i y)) 1)) (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                ((and (listp (car tabuleiro)) (<= (abs (- i y)) 1)) (cons  (recursive (car tabuleiro) 0) (recursive (cdr tabuleiro) (1+ i))))
-                ((null (car tabuleiro)) nil)
-                (t 
-                    (cond
-                        ((<= (abs (- i x)) 1) (cons (car tabuleiro) (recursive (cdr tabuleiro) (1+ i))))
-                        (t (cons nil (recursive (cdr tabuleiro) (1+ i))))
-                    )
-                )
-            )
-        )
-    ) 
-    (let* 
-        (
-            (obtidos (mapcar (lambda (linha) (remove nil linha)) (remove nil (recursive tabuleiro 0) )))
-            (obtidos-colunas-corrigidas
-                (cond 
-                    ((= (length (car obtidos)) 2)
-                        (cond
-                            ((= x 0) (mapcar (lambda (linha)
-                                (cons -1 linha)
-                            ) obtidos))
-                            (t (mapcar (lambda (linha) 
-                                (append linha '(-1))
-                            ) obtidos))
-                        )
-                    )
-                    (t obtidos)
-                )
-            )
-            (obtidos-linhas-corrigidas
-                (cond
-                    ((= (length obtidos-colunas-corrigidas) 2) 
-                        (cond
-                            ((= y 0) (cons '(-1 -1 -1) obtidos-colunas-corrigidas))
-                            (t (append obtidos-colunas-corrigidas '((-1 -1 -1))))
-                        )
-                    )
-                    (t obtidos-colunas-corrigidas)
-                )
-            )
-        )
-        obtidos-linhas-corrigidas
-    )
-    ) 
-)
-
-(defun espacos-validos (tabuleiro jogador)
-    "Procura espaços validos para jogar no tabuleiro
-    Devolve lista de listas com par de coordenadas e lista de direções diagonais de contacto
-    (sup-esq, sup-dir, inf-esq, inf-dir)"
-    (labels
-        (
-            (recursive (_tabuleiro x y)
-                (cond
-                    ((null _tabuleiro) nil)
-                    ((listp (car _tabuleiro)) (append  (recursive (car _tabuleiro) 0 y) (recursive (cdr _tabuleiro) 0 (1+ y))))
-                    ((null (car _tabuleiro)) nil)
-                    (t 
-                        (cond 
-                            ((/= (car _tabuleiro) 0) (append nil (recursive (cdr _tabuleiro) (1+ x) y)))
-                            (t 
-                                (let*
-                                    (
-                                        (vizinhanca (obter-vizinhanca tabuleiro x y))
-                                        ;; Verificar se não existem peças colocadas nas laterais
-                                        ;; e existe pelo menos uma peça nas diagonais
-                                        (decisao (and 
-                                            (not (or 
-                                                (= (second (first vizinhanca)) jogador)
-                                                (= (first (second vizinhanca)) jogador)
-                                                (= (third (second vizinhanca)) jogador)
-                                                (= (second (third vizinhanca)) jogador)
-                                                ))
-                                            (or
-                                                (= (first (first vizinhanca)) jogador)
-                                                (= (third (first vizinhanca)) jogador)
-                                                (= (first (third vizinhanca)) jogador)
-                                                (= (third (third vizinhanca)) jogador)
-                                            )
-                                            ))
-                                        (direcoes-de-contato
-                                            (remove nil (cons (if (= (first (first vizinhanca)) jogador) 'sup-esq nil) 
-                                                (cons (if (= (third (first vizinhanca)) jogador) 'sup-dir nil) 
-                                                    (cons (if (= (first (third vizinhanca)) jogador) 'inf-esq nil) 
-                                                        (cons (if (= (third (third vizinhanca)) jogador) 'inf-dir nil) nil)))))
-                                        )
-                                    ) 
-                                    (append (if decisao (list (list (list x y) direcoes-de-contato)) nil) (recursive (cdr _tabuleiro) (1+ x) y))
-                                )
-                            )
-                        )
-                    
-                    )
-                )
-            )
-        )
-        (cond
-            ((tabuleiro-vaziop tabuleiro jogador)
-                (cond
-                    ((= jogador 1) '(((0 0) (sup-esq))))
-                    ((= jogador 2) '(((13 13) (inf-dir))))
-                )
-            )
-            (t (recursive tabuleiro 0 0))
-        )
-        
-    )
-)
-
-(defun tabuleiro-vaziop (tabuleiro &optional (jogador 1))
-    "Função que avlia se um tabuleiro fornecido não tem peças colocadas pelo jogador"
-    (cond
-        ((null tabuleiro) t)
-        ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro)) (tabuleiro-vaziop (cdr tabuleiro))))
-        ((/= (car tabuleiro) jogador) (and t (tabuleiro-vaziop (cdr tabuleiro))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-com-peca ( posicoes peca)
-    "Obtem uma lista de potenciais colocações da peça no tabuleiro
-    que deve ainda ser testada na prática"
-    (eliminar-duplicados (apply #'append (mapcar (lambda (posicao)
-             (remove nil (potenciais-colocacoes  posicao (deslocacoes-peca peca)))
-        )
-     posicoes)))
-)
-
-(defun potenciais-colocacoes (posicao deslocacoes)
-    "Devolve a resolução em colocações concretas da peça ao comparar a lista de deslocacoes da peça
-    com os contatos da posicao recebida."
-    (cond
-        ((null deslocacoes) nil)
-        ((lista-contem-todos (first (car deslocacoes)) (second posicao)) (let 
-            (
-                (x (+ (first (first posicao)) (first (second (car deslocacoes)))))
-                (y (+ (second (first posicao)) (second (second (car deslocacoes)))))
-            )
-            (cond
-                ((or (< x 0) (< y 0)) (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-                (t (cons (list x y) (potenciais-colocacoes posicao (cdr deslocacoes))))
-            )
-        ))
-        (t (cons nil (potenciais-colocacoes posicao (cdr deslocacoes))))
-    )
-)
-
-(defun lista-contem-todos (lista elementos)
-    "Verifica se a lista recebida contém todos os elementos"
-    (cond
-        ((null elementos) t)
-        ((member (car elementos) lista) (and t (lista-contem-todos  lista (cdr elementos))))
-        (t nil)
-    )
-)
-
-(defun potenciais-colocacoes-por-peca (estado operadores jogador)
-    "Obtém todas as potenciais colocações por peça no tabuleiro considerando as peças restantes na mão.
-    Todas as colocações devolvidas devem primeiro ser testadas em prática.
-    Devolve lista de listas com operador e uma lista de potencias colocações em listas de coordenas x y."
-    (let
-        (
-            (posicoes-validas (espacos-validos (first estado) jogador))
-        )
-        (mapcar (lambda (operador)
-            (cond
-                ((tem-peca operador (estado-pecas-jogador estado jogador)) (list operador (potenciais-colocacoes-com-peca posicoes-validas (funcall operador))))
-                (t nil)            
-            )
-            
-        ) operadores)
-    )
-)
-
-(defun tem-peca (peca mao)
-    "Valida se uma peça existe na mão do jogador"
-    (cond
-        ((equal peca 'peca-a) (> (first mao) 0))
-        ((equal peca 'peca-b) (> (second mao) 0))
-        ((or (equal peca 'peca-c-h) (equal peca 'peca-c-v)) (> (third mao) 0))
-        (t nil)
-    )
-)
-
-(defun peca-casas-ocupadas (x y peca)
-    "Retorna uma lista de listas de coordenas que são as casa ocupadas concretamente de jogar
-    a peça nas posições x y"
-  (labels
-    (
-      (recursivo (matriz-peca i j)
-        (cond
-          ((null (car matriz-peca)) nil)
-          ((listp (car matriz-peca)) (append (recursivo (car matriz-peca) 0 j) (recursivo (cdr matriz-peca) 0 (1+ j))))
-          (t 
-            (cond
-              ((= (car matriz-peca) 1) (cons (list (+ x i) (+ y j)) (recursivo (cdr matriz-peca) (1+ i) j)))
-              (t (cons nil (recursivo (cdr matriz-peca) (1+ i) j)))
-            )
-          )
-        )
-      )
-    )
-    (remove nil (recursivo (first peca) 0 0))
-  )
-)
-
-
-(defun valida-casas (tabuleiro casas jogador)
-    "Valida se é possível jogar no tabuleiro nas casas"
-    (cond
-        ((null casas) t)
-        ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
-            (< (first (car casas)) 0) (< (second (car casas)) 0)
-        ) nil)
-        (t 
-            (let ((vizinhanca (obter-vizinhanca tabuleiro (first (car casas)) (second (car casas)))))
-                (and
-                    (and (= (second (second vizinhanca)) 0)
-                        (not (or 
-                            (= (second (first vizinhanca)) jogador)
-                            (= (first (second vizinhanca)) jogador)
-                            (= (third (second vizinhanca)) jogador)
-                            (= (second (third vizinhanca)) jogador)
-                        ))
-                    )
-                (valida-casas tabuleiro (cdr casas) jogador) )
-            )
-        )
-    )
-)
-
-(defun atualizar-mao (mao peca-jogada)
-    "Devolve uma nova mão sem a peça jogada"
-    (cond
-        ((equal peca-jogada 'peca-a) (list (1- (first mao)) (second mao) (third mao)))
-        ((equal peca-jogada 'peca-b) (list (first mao) (1- (second mao)) (third mao)))
-        ((or (equal peca-jogada 'peca-c-h) (equal peca-jogada 'peca-c-v)) (list (first mao) (second mao) (1- (third mao))))
-    )
-)
-
-(defun ocupar-casas (tabuleiro casas jogador)
-    "Imprime a peça sobre o tabuleiro, devolvendo um novo tabuleiro"
-    (cond
-        ((null casas) tabuleiro)
-        (t (ocupar-casas (substituir (second (car casas)) (first (car casas)) tabuleiro jogador) (cdr casas) jogador))
-    )
-)
-
-
-
-(defun criar-f-sucessores (jogador-proprio jogador-adversario)
-    (lambda (no jogador-max) 
-        (sucessores no (if jogador-max jogador-proprio jogador-adversario) 'operadores)
-    )
-)
-
-
-(defun sucessores (no jogador operadores)
-    "Com base no nó e nos operadores disponíveis, devolve uma lista de sucessores válidos"
-    (shuffle-list (apply #'append (mapcar (lambda (peca-colocacoes)  
-        (remove nil (mapcar (lambda (colocacao)
-            (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))
-                (cond 
-                    ((valida-casas (first (no-estado no)) casas-ocupadas jogador)
-                        ; (list
-                        ;     (list
-                        ;         (ocupar-casas (first (no-estado no)) casas-ocupadas)
-                        ;         (atualizar-mao (second (no-estado no)) (first peca-colocacoes)))
-                        ;     (1+ (no-profundidade no))
-                        ;     no)
-                        (let
-                            (
-                                (novo-estado (criar-novo-estado (no-estado no) casas-ocupadas (first peca-colocacoes) jogador))
-                            )
-                            (criar-no novo-estado (list (first peca-colocacoes) colocacao))
-                        )
-                    )
-                        
-                    (t nil)
-                )
-            )
-        ) (second peca-colocacoes)))
-    ) (potenciais-colocacoes-por-peca (no-estado no) operadores jogador))))
-)
-
-(defun criar-novo-estado (estado casas-a-ocupar peca jogador)
-    (if (= jogador 1)
-        (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (atualizar-mao (estado-pecas-jogador estado 1) peca) (estado-pecas-jogador estado 2))
-        (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (estado-pecas-jogador estado 1) (atualizar-mao (estado-pecas-jogador estado 2) peca))
-    )
-)
-
-(defun criar-f-utilidade (jogador-proprio jogador-adversario)
-    (lambda (no)
-        (- (pontuacao (no-estado no) jogador-proprio) (pontuacao (no-estado no) jogador-adversario))
-    )
-)
-
-
-(defun pontuacao (estado jogador)
-    (let (
-        (pecas (estado-pecas-jogador estado jogador))
-        )
-        (- 110 (+ (first pecas) (* (second pecas) 4) (* (third pecas) 4)))
-    )
-)
-
-WARNING: redefining COMMON-LISP-USER::NO-INICIAL in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESPACOS-VALIDOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-INICIAL in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::NO-JOGADA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-TABULEIRO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ESTADO-PECAS-JOGADOR in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECAS-INICIAIS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-C-H in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-C-V in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-A in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-B in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OPERADORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CELULA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUBSTITUIR-POSICAO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUBSTITUIR in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::LIST-0-TO-N in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::REMOVE-FROM-LIST in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SHUFFLE-LIST in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ELIMINAR-DUPLICADOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OBTER-VIZINHANCA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIOP in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES-COM-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::LISTA-CONTEM-TODOS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::POTENCIAIS-COLOCACOES-POR-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TEM-PECA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PECA-CASAS-OCUPADAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::VALIDA-CASAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ATUALIZAR-MAO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::OCUPAR-CASAS in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-SUCESSORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-NOVO-ESTADO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-UTILIDADE in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::PONTUACAO in DEFUN
-
-PONTUACAO
-
-CL-USER> 
-; in: DEFUN LINHA-VAZIAP
-;     (APPLY AND (MAPCAR (LAMBDA (LINHA) (APPLY AND (MAPCAR # LINHA))) TABULEIRO))
-; --> MULTIPLE-VALUE-CALL 
-; ==>
-;   (SB-KERNEL:%COERCE-CALLABLE-FOR-CALL AND)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP:AND
-; 
-; compilation unit finished
-;   Undefined variable:
-;     AND
-;   caught 1 WARNING condition
-(cons 'and (1 2 3))
-(cons 'and '(1 2 3))
-; in: CONS 'AND
-;     (1 2 3)
-; 
-; caught ERROR:
-;   illegal function call
-; 
-; compilation unit finished
-;   caught 1 ERROR condition
-
-CL-USER> 
-(cons 'and '(1 2 3))
-(AND 1 2 3)
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::LINHA-VAZIAP in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIO in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-(linha-vaziap (tabuleiro-vazio))
-(linha-vaziap (tabuleiro-vazio))
-T
-
-CL-USER> (linha-vaziap '((1 0 0)
-      (0 2 0)
-      (0 0 1)))
-(linha-vaziap '((1 0 0)
-      (0 0 0)
-      (0 0 0)))
 NIL
-
-CL-USER> 
-(linha-vaziap '((1 0 0)
-      (0 0 0)
-      (0 0 0)) 0)
-NIL
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::LINHA-VAZIAP in DEFUN
-
-(linha-vaziap '((1 0 0)
-      (0 0 0)
-      (0 0 0)) 1)
-NIL
-
-CL-USER> 
-(linha-vaziap '((1 0 0)
-      (0 0 0)
-      (0 0 0)) 1)
-T
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 8)
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 8)
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::CRIAR-F-SUCESSORES in DEFUN
-
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 8)
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 8)
-WARNING: redefining COMMON-LISP-USER::CRIAR-ESTADO in DEFUN
-
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 12)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 2)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 3)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 0)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 1)
-0
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 200)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 200)
-4
-
-CL-USER> 
-; in: DEFUN ALFABETA
-;     (CAR SUCESSOR)
-; 
-; caught WARNING:
-;   undefined variable: COMMON-LISP-USER::SUCESSOR
-; 
-; compilation unit finished
-;   Undefined variable:
-;     SUCESSOR
-;   caught 1 WARNING condition
-
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-WARNING: redefining COMMON-LISP-USER::OBTER-MELHOR-JOGADA in DEFUN
-WARNING: redefining COMMON-LISP-USER::LIMPAR-MELHOR-JOGADA in DEFUN
-(limpar-melhor-jogada) 
-(limpar-melhor-jogada)
-NIL
-
-CL-USER> (obter-melhor-jogada )
-(obter-melhor-jogada )
-NIL
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 8)
--999999999999
-
-CL-USER> (obter-melhor-jogada)
-(obter-melhor-jogada)
-((((1 0 0) (1 1 0) (0 1 0)) (10 10 14) (10 10 15)) (PECA-C-V (0 0)))
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::SUCESSORES in DEFUN
-(sucessores (no-inicial) 1 (operadores))
-(sucessores (no-inicial) 1 (operadores))
-(((((1 1 0) (1 1 0) (0 0 0)) (10 9 15) (10 10 15)) (PECA-B (0 0)))
- ((((1 0 0) (1 1 0) (0 1 0)) (10 10 14) (10 10 15)) (PECA-C-V (0 0)))
- ((((1 0 0) (0 0 0) (0 0 0)) (9 10 15) (10 10 15)) (PECA-A (0 0))))
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::TABULEIRO-VAZIO in DEFUN
-
-
-CL-USER> 
-(sucessores (no-inicial) 2 (operadores))
-(((((1 1 0 0 0 0 0 0 0 0 0 0 0 0) (1 1 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-   (10 9 15) (10 10 15))
-  (PECA-B (0 0)))
- ((((1 0 0 0 0 0 0 0 0 0 0 0 0 0) (1 1 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 1 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-   (10 10 14) (10 10 15))
-  (PECA-C-V (0 0)))
- ((((1 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-   (9 10 15) (10 10 15))
-  (PECA-A (0 0))))
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 2) (criar-f-utilidade 1 2) 8)
--999999999999
-
-CL-USER> (obter-melhor-jogada)
-(obter-melhor-jogada)
-((((1 0 0 0 0 0 0 0 0 0 0 0 0 0) (1 1 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 1 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0))
-  (10 10 14) (10 10 15))
- (PECA-C-V (0 0)))
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 8)
--999999999999
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 8)
--999999999999
-
-CL-USER> (obter-melhor-jogada)
-(obter-melhor-jogada)
-((((1 0 0 0 0 0 0 0 0 0 0 0 0 0) (1 1 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 1 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 1 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 1 1 0 0 0 0 0 0 0 0 0 0) (0 0 0 1 0 0 0 0 0 0 0 0 0 0)
-   (0 1 1 0 0 0 0 0 0 0 0 0 0 0) (0 1 1 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 2 0 2) (0 0 0 0 0 0 0 0 0 2 2 0 2 0)
-   (0 0 0 0 0 0 0 0 0 2 2 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 0 2))
-  (10 9 13) (8 9 14))
- (PECA-B (9 11)))
-
-CL-USER> (limpar-melhor-jogada)
-(limpar-melhor-jogada)
-NIL
-
-CL-USER> 
-(sucessores (no-inicial) 2 (operadores))
-(((((0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 2 2))
-   (10 10 15) (10 9 15))
-  (PECA-B (12 12)))
- ((((0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 2 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 0 2))
-   (10 10 15) (10 10 14))
-  (PECA-C-V (12 11)))
- ((((0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 2))
-   (10 10 15) (9 10 15))
-  (PECA-A (13 13))))
-
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-WARNING: redefining COMMON-LISP-USER::OBTER-MELHOR-JOGADA in DEFUN
-WARNING: redefining COMMON-LISP-USER::LIMPAR-MELHOR-JOGADA in DEFUN
-
-(limpar-melhor-jogada)
-NIL
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 8)
-CL-USER> 
-CL-USER> 
-WARNING: redefining COMMON-LISP-USER::ALFABETA in DEFUN
-WARNING: redefining COMMON-LISP-USER::OBTER-MELHOR-JOGADA in DEFUN
-WARNING: redefining COMMON-LISP-USER::LIMPAR-MELHOR-JOGADA in DEFUN
-
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 3)
-0
-
-CL-USER> (obter-melhor-jogada)
-(obter-melhor-jogada)
-((((0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 2 2))
-  (10 10 15) (10 9 15))
- (PECA-B (12 12)))
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 3)
-4
-
-CL-USER> 
-(alfabeta (no-inicial) (criar-f-sucessores 2 1) (criar-f-utilidade 2 1) 2)
-0
-
-CL-USER> 
-(alfabeta (obter-melhor-jogada) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 3)
-4
-
-CL-USER> (obter-melhor-jogada )
-(obter-melhor-jogada )
-((((0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 2 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 0 2))
-  (10 10 15) (10 10 14))
- (PECA-C-V (12 11)))
-
-CL-USER> 
-(alfabeta (obter-melhor-jogada) (criar-f-sucessores 1 2) (criar-f-utilidade 1 2) 3)
-0
-
-CL-USER> (obter-melhor-jogada )
-(obter-melhor-jogada )
-((((1 0 0 0 0 0 0 0 0 0 0 0 0 0) (1 1 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 1 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 0 0) (0 0 0 0 0 0 0 0 0 0 0 0 2 0)
-   (0 0 0 0 0 0 0 0 0 0 0 0 2 2) (0 0 0 0 0 0 0 0 0 0 0 0 0 2))
-  (10 10 14) (10 10 14))
- (PECA-C-V (0 0)))
 
 CL-USER> 
