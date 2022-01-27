@@ -1,8 +1,8 @@
-((defun iniciar ()
+(defun iniciar ()
   "Função que inicia o programa"
   (progn
    (definir-pasta)
-   (menu-inicial))))
+   (menu-inicial)))
 
 (defun definir-pasta ()
   "Pede o path da localização do projeto e compila os ficheiros puzzle.lisp e algoritmo.lisp"
@@ -56,7 +56,7 @@
    (format t " ~%|                                     |")
    (format t " ~%|        Qual o tempo limite?         |")
    (format t " ~%|                                     |")
-   (format t " ~%|     > 0 - tempo (milisegundos)      |")
+   (format t " ~%|     > 0 - Tempo (milisegundos)      |")
    (format t " ~%|       0 - Voltar                    |")
    (format t " ~%|                                     |")
    (format t " ~%|_____________________________________|")
@@ -74,22 +74,21 @@
       ((eq option '0) (format t "Até à próxima!"))
       (T (progn (format t "Opção inválida!") (menu-inicial)))))))
 
-  (defun menu-escolher-jogador()
-    (progn
-        (mostrar-menu-jogador)
-        (let ((option (read)))
-            (cond
-                ((eq option '1) (menu-limite-tempo '1))
-                ((eq option '2) (menu-limite-tempo '2))
-                ((eq option '0) (menu-inical))
-            ))))
+(defun menu-escolher-jogador()
+  (progn
+    (mostrar-menu-jogador)
+      (let ((option (read)))
+        (cond
+          ((eq option '1) (menu-limite-tempo '1))
+          ((eq option '2) (menu-limite-tempo '2))
+          ((eq option '0) (menu-inicIal))))))
 
 (defun menu-limite-tempo (&optional jogador)
   "Chama a funçãoo mostrar-menu-tempo-limite e lê o input do utilizador"
   (progn (mostrar-menu-tempo-limite)
-         (let ((option (read)))
-           (cond
-            ((or (not (numberp option)) (< option 0)) (format t "Opção inválida!") (menu-limite-tempo jogador))
-            ((eq option '0) (menu-escolher-jogador))
-            (T T)))))
+    (let ((option (read)))
+      (cond
+      ((or (not (numberp option)) (< option 0)) (format t "Opção inválida!") (menu-limite-tempo jogador))
+      ((eq option '0) (menu-escolher-jogador))
+      (T T)))))
     
