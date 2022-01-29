@@ -90,7 +90,7 @@
       (cond
       ((or (not (numberp option)) (< option 0)) (format t "Opção inválida!") (menu-limite-tempo jogador))
       ((eq option '0) (menu-escolher-jogador))
-      (T T)))))
+      (T (jogo-teste))))))
     
 (defun jogo-teste ()
     (let 
@@ -110,6 +110,7 @@
                     (setf no-atual (obter-melhor-jogada))
                     (format t "Turno do Jogador ~a ~% ------------------- ~%" jogador)
                     (mostrar-no no-atual)
+                    (registar-no no-atual)
                     (let ((temp jogador))
                         (setf jogador adversario)
                         (setf adversario temp)
@@ -117,6 +118,7 @@
                 )
             while (not (null (sucessores no-atual jogador (operadores)))))
             (mostrar-pontuacoes (no-estado no-atual))
+            (registar-pontuacoes (no-estado no-atual))
         )
     )
 )
@@ -132,12 +134,34 @@
    ))
 
 (defun mostrar-pontuacoes (estado)
+"Imprime no listener as Pontuações"
     (progn
         (format t "Pontuações: ~%")
         (format t "Jogador 1: ~a pontos ~%" (pontuacao estado 1))
         (format t "Jogador 2: ~a pontos ~% ~%" (pontuacao estado 2))
     )
 )
+
+(defun registar-pontuacoes (estado)
+    (progn
+      (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
+        (format t "Pontuações: ~%")
+        (format t "Jogador 1: ~a pontos ~%" (pontuacao estado 1))
+        (format t "Jogador 2: ~a pontos ~% ~%" (pontuacao estado 2)))
+    )
+)
+
+(defun registar-no (no)
+  "Regista no ficheiro log.dat as informações do nó atual"
+  (progn
+    (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
+      (format t "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no))))
+    (registar-tabuleiro (estado-tabuleiro (no-estado no)))
+    (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
+      (format t "Peças disponiveis: ~%")
+      (format t "Jogador 1: ~a ~%" (estado-pecas-jogador (no-estado no) 1))
+      (format t "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2)))))
+
 
 (defun tabuleiro-letras (tabuleiro)
 "Percorre o tabuleiro e troca os números por símbolos"
@@ -151,3 +175,13 @@
 (defun mostrar-tabuleiro (tabuleiro)
   "Imprime no listener o estado do tabuleiro"
   (format t "~{~{~a~^ ~}~%~}" (tabuleiro-letras tabuleiro)))
+
+(defun registar-tabuleiro (tabuleiro)
+  "Regista no ficheiro log.dat o estado do tabuleiro"
+  (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
+    (format file "~{~{~a~^ ~}~%~}" (tabuleiro-letras tabuleiro))))
+
+(defun diretorio-resultados ()
+  ";Devolve o path para o ficheiro resultados.dat"
+  (concatenate 'string *path* "log.dat"))
+
