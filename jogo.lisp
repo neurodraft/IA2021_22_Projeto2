@@ -145,9 +145,9 @@
 (defun registar-pontuacoes (estado)
     (progn
       (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
-        (format t "Pontuações: ~%")
-        (format t "Jogador 1: ~a pontos ~%" (pontuacao estado 1))
-        (format t "Jogador 2: ~a pontos ~% ~%" (pontuacao estado 2)))
+        (format file "Pontuações: ~%")
+        (format file "Jogador 1: ~a pontos ~%" (pontuacao estado 1))
+        (format file "Jogador 2: ~a pontos ~% ~%" (pontuacao estado 2)))
     )
 )
 
@@ -155,12 +155,12 @@
   "Regista no ficheiro log.dat as informações do nó atual"
   (progn
     (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
-      (format t "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no))))
+      (format file "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no))))
     (registar-tabuleiro (estado-tabuleiro (no-estado no)))
     (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
-      (format t "Peças disponiveis: ~%")
-      (format t "Jogador 1: ~a ~%" (estado-pecas-jogador (no-estado no) 1))
-      (format t "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2)))))
+      (format file "Peças disponiveis: ~%")
+      (format file "Jogador 1: ~a ~%" (estado-pecas-jogador (no-estado no) 1))
+      (format file "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2)))))
 
 
 (defun tabuleiro-letras (tabuleiro)
