@@ -418,10 +418,10 @@
 )
 
 
-(defun valida-casas (tabuleiro casas jogador &optional (contato-diagonal nil))
+(defun valida-casas (tabuleiro casas jogador &optional (primeira-jogada nil) (contato-diagonal nil))
     "Valida se é possível jogar no tabuleiro nas casas"
     (cond
-        ((null casas) contato-diagonal)
+        ((null casas) (or primeira-jogada contato-diagonal))
         ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
             (< (first (car casas)) 0) (< (second (car casas)) 0)
         ) nil)
@@ -436,13 +436,15 @@
                             (= (second (third vizinhanca)) jogador)
                         ))
                     )
-                (valida-casas tabuleiro (cdr casas) jogador)
+                (valida-casas tabuleiro (cdr casas) jogador
+                    (if (not primeira-jogada) (or (and (= jogador 1) (equal (car casas) '(0 0)))
+                                                    (and (= jogador 2) (equal (car casas) '(13 13)))) t)
                     (if (not contato-diagonal) (or 
                             (= (first (first vizinhanca)) jogador)
                             (= (first (third vizinhanca)) jogador)
                             (= (third (first vizinhanca)) jogador)
                             (= (third (third vizinhanca)) jogador)
-                        ) t)
+                        ) t))
                 )
             )
         )
