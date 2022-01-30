@@ -499,15 +499,14 @@
 
 (defun criar-f-utilidade (jogador-proprio jogador-adversario)
     (lambda (no)
-        (- (pontuacao (no-estado no) jogador-proprio) (pontuacao (no-estado no) jogador-adversario))
+        (-  (pontuacao (no-estado no) jogador-adversario) (pontuacao (no-estado no) jogador-proprio))
     )
 )
-
 
 (defun pontuacao (estado jogador)
     (let (
         (pecas (estado-pecas-jogador estado jogador))
         )
-        (- 110 (+ (first pecas) (* (second pecas) 4) (* (third pecas) 4)))
+        (+ (first pecas) (* (second pecas) 4) (* (third pecas) 4))
     )
 )

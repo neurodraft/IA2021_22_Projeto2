@@ -13,7 +13,7 @@
      (load (compile-file (concatenate 'string path "puzzle.lisp")))
      (load (compile-file (concatenate 'string path "algoritmo.lisp")))
      (defparameter *path* path)
-     path))) 
+     path)))
 
 (defun mostrar-menu-inicial ()
   "Imprime no listener o menu inicial"
@@ -29,7 +29,7 @@
    (format t " ~%                                       ")
    (format t " ~%-> Opção: ")))
 
-(defun mostrar-menu-jogador()
+(defun mostrar-menu-jogador ()
   "Imprime no listener o menu que permite ao jogador escolher qual o jogador que deseja ser"
   (progn
    (format t " ~% _____________________________________")
@@ -45,7 +45,6 @@
    (format t " ~%|_____________________________________|")
    (format t " ~%                                       ")
    (format t " ~%-> Opção: ")))
-
 
 (defun mostrar-menu-tempo-limite ()
   "Imprime no listener o menu que permite inserir o limite de tempo"
@@ -74,14 +73,14 @@
       ((eq option '0) (format t "Até à próxima!"))
       (T (progn (format t "Opção inválida!") (menu-inicial)))))))
 
-(defun menu-escolher-jogador()
+(defun menu-escolher-jogador ()
   (progn
-    (mostrar-menu-jogador)
-      (let ((option (read)))
-        (cond
-          ((eq option '1) (menu-limite-tempo '1))
-          ((eq option '2) (menu-limite-tempo '2))
-          ((eq option '0) (menu-inicIal))))))
+   (mostrar-menu-jogador)
+   (let ((option (read)))
+     (cond
+      ((eq option '1) (menu-limite-tempo '1))
+      ((eq option '2) (menu-limite-tempo '2))
+      ((eq option '0) (menu-inicIal))))))
 
 (defun menu-limite-tempo (&optional jogador)
   "Chama a funçãoo mostrar-menu-tempo-limite e lê o input do utilizador"
@@ -91,47 +90,53 @@
       ((or (not (numberp option)) (< option 0)) (format t "Opção inválida!") (menu-limite-tempo jogador))
       ((eq option '0) (menu-escolher-jogador))
       (T (jogo-teste))))))
-    
-(defun jogo-teste ()
-    (let 
-        (
-            (jogador 1)
-            (adversario 2)
-            (no-atual (no-inicial))
-        )
-        (progn 
-            (limpar-melhor-jogada)
-            (loop do
+
+
+(defun jogo-teste (tempo-limite)
+  (let ((jogador 1)
+        (adversario 2)
+        (no-atual (no-inicial))
+        (profundidade (profundidade-max-para-tempo tempo-limite)))
+
+    (loop do (progn
+              (reiniciar-valores)
+              (definir-limite-tempo tempo-limite)
+              (let ((valor (time (alfabeta
+                            no-atual
+                            (criar-f-sucessores jogador adversario)
+                            (criar-f-utilidade jogador adversario) profundidade))))
                 (progn
-                    (alfabeta 
-                        no-atual
-                        (criar-f-sucessores jogador adversario)
-                        (criar-f-utilidade jogador adversario) 5)
-                    (setf no-atual (obter-melhor-jogada))
-                    (format t "Turno do Jogador ~a ~% ------------------- ~%" jogador)
-                    (mostrar-no no-atual)
-                    (registar-no no-atual)
-                    (let ((temp jogador))
-                        (setf jogador adversario)
-                        (setf adversario temp)
-                    )
-                )
-            while (not (null (sucessores no-atual jogador (operadores)))))
-            (mostrar-pontuacoes (no-estado no-atual))
-            (registar-pontuacoes (no-estado no-atual))
-        )
-    )
-)
+                  (format t "Turno do Jogador ~a ~% ------------------- ~%" jogador)
+                 (if valor
+                     (progn
+                      (setf no-atual (obter-melhor-jogada))
+                      
+                      (mostrar-no no-atual)
+                      (mostrar-estatisticas valor (obter-nos-analisados) (obter-cortes-alfa) (obter-cortes-beta) (obter-limite-tempo-alcancado)))
+                     (format t "Jogador ~a não conseguiu efetuar jogada ~% ------------------- ~% ~%" jogador))
+
+                 (let ((temp jogador))
+                   (setf jogador adversario)
+                   (setf adversario temp)))))
+              while (not (and (null (sucessores no-atual 1 (operadores)))
+                              (null (sucessores no-atual 2 (operadores))))))
+             (mostrar-pontuacoes (no-estado no-atual))))
+
+(defun mostrar-estatisticas (melhor-valor nos-analisados cortes-alfa cortes-beta limite-tempo-alcancado)
+  (format t "Melhor valor: ~a ~%" melhor-valor)
+  (format t "Número nós analisados: ~a ~%" nos-analisados)
+  (format t "Número cortes-alfa: ~a ~%" cortes-alfa)
+  (format t "Número cortes-beta: ~a ~%" cortes-beta)
+  (format t "Limite de tempo alcançado: ~a ~% ~%" (if limite-tempo-alcancado "Sim" "Não")))
 
 (defun mostrar-no (no)
-"Imprime no listener as informações do nó atual"
+  "Imprime no listener as informações do nó atual"
   (progn
-    (format t "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no)))
+   (format t "~a jogada na posição ~a ~%" (first (no-jogada no)) (second (no-jogada no)))
    (mostrar-tabuleiro (estado-tabuleiro (no-estado no)))
    (format t "Peças disponiveis: ~%")
    (format t "Jogador 1: ~a ~%" (estado-pecas-jogador (no-estado no) 1))
-   (format t "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2))
-   ))
+   (format t "Jogador 2: ~a ~% ~% " (estado-pecas-jogador (no-estado no) 2))))
 
 (defun mostrar-pontuacoes (estado)
 "Imprime no listener as Pontuações"
@@ -164,7 +169,7 @@
 
 
 (defun tabuleiro-letras (tabuleiro)
-"Percorre o tabuleiro e troca os números por símbolos"
+  "Percorre o tabuleiro e troca os números por símbolos"
   (mapcar (lambda (row)
             (mapcar (lambda (cel)
                       (cond
@@ -185,3 +190,11 @@
   ";Devolve o path para o ficheiro resultados.dat"
   (concatenate 'string *path* "log.dat"))
 
+(defun profundidade-max-para-tempo (milisegundos)
+  (cond 
+    ((< milisegundos 1500) 3)
+    ((< milisegundos 2500) 4)
+    ((< milisegundos 18000) 5)
+    (t 6)
+  )
+)
