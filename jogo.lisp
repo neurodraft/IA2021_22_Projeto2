@@ -138,11 +138,8 @@
                      (obter-melhor-jogada))
 )             
 
-(defun jogada-humano (no jogador)
-  (let ((peca nil)
-      (x nil)
-      (y nil))
-    (progn
+(defun escolher-peca()
+  (progn
       (format t " ~% Escolha uma ação: ")
       (format t " ~% ")
       (format t " ~% 1 - peça A")
@@ -150,25 +147,50 @@
       (format t " ~% 3 - peça C-H")
       (format t " ~% 4 - peça C-V")
       (format t " ~% 0 - Passar o turno")
+      (format t " ~% ")
+      (format t " ~% -> Opção: ")
       (let ((option (read)))
         (cond
-          ((eq option '1) (setf peca 'peca-a))
-          ((eq option '2) (setf peca 'peca-b))
-          ((eq option '3) (setf peca 'peca-c-h))
-          ((eq option '4) (setf peca 'peca-c-v))
-          ((eq option '0) nil)))
+          ((eq option '1) 'peca-a)
+          ((eq option '2) 'peca-b)
+          ((eq option '3) 'peca-c-h)
+          ((eq option '4) 'peca-c-v)
+          ((eq option '0) nil)
+          (T (progn (format t "Opção inválida!") (escolher-peca))))
+          ))
+)
+
+(defun escolher-linha()
+  (format t " ~% Escolha uma linha [0,13]: ")
+  (let ((option (read)))
+    (cond
+      ((or (not (numberp option)) (< option 0) (> option 13)) (format t "~% Opção inválida!~%") (escolher-linha))
+      (T option)
+    )))
+
+
+(defun escolher-coluna()
+  (format t " ~% Escolha uma coluna [0,13]: ")
+  (let ((option (read)))
+    (cond
+      ((or (not (numberp option)) (< option 0) (> option 13)) (format t "~% Opção inválida!~%") (escolher-coluna))
+      (T option)
+    )))    
+
+(defun jogada-humano (no jogador)
+  (let ((peca nil)
+      (x nil)
+      (y nil))
+    (progn
+      (setf peca (escolher-peca))
       (if (not (tem-peca peca (estado-pecas-jogador (no-estado no) jogador)))      
         (progn
           (format t " ~% A ~a não está disponivel!" peca)
           (jogada-humano no jogador)
         )
       )
-      (format t " ~% Escolha uma linha [0,13]: ")
-      (let ((option (read)))
-        (setf x option))
-      (format t " ~% Escolha uma coluna [0,13]: ")
-      (let ((option (read)))
-        (setf y option))
+      (setf x (escolher-linha))
+      (setf y (escolher-coluna))
       (let ((casas-ocupadas (peca-casas-ocupadas x y (funcall peca))))
         (if (valida-casas (estado-tabuleiro (no-estado no)) casas-ocupadas jogador)
           (criar-no (criar-novo-estado (no-estado no) casas-ocupadas peca jogador) nil)
@@ -201,13 +223,13 @@
              ))
 
 (defun mostrar-jogador-passou(jogador)
-  (format t "Jogador ~a não conseguiu efetuar jogada ~% ------------------- ~% ~%" jogador)
+  (format t "~%Jogador ~a não conseguiu efetuar jogada ~% ------------------- ~% ~%" jogador)
   (registar-jogador-passou jogador)
 )
 
 (defun registar-jogador-passou(jogador)
   (with-open-file (file (diretorio-resultados) :direction :output :if-exists :append :if-does-not-exist :create)
-  (format file "Jogador ~a não conseguiu efetuar jogada ~% ------------------- ~% ~%" jogador))
+  (format file "~%Jogador ~a não conseguiu efetuar jogada ~% ------------------- ~% ~%" jogador))
 )
 
 (defun mostrar-estatisticas (melhor-valor nos-analisados cortes-alfa cortes-beta limite-tempo-alcancado)
