@@ -57,9 +57,9 @@
 )
 
 (defun peca-c-h ()
-    "Pe√ßa C horizontal descrita como uma matriz 3x2 e uma lista de 4 desloca√ß√µes
-    cada desloca√ß√£o √© descrita com uma lista de direc√µes diagonais de contato e um offset em x e y
-    da forma da pe√ßa relativamente a posicao no tabuleiro"
+    "PeÁa C horizontal descrita como uma matriz 3x2 e uma lista de 4 deslocaÁıes
+    cada deslocaÁ„o È descrita com uma lista de direcıes diagonais de contato e um offset em x e y
+    da forma da peÁa relativamente a posicao no tabuleiro"
     '(
         (
             (0 1 1)
@@ -76,9 +76,9 @@
 )
 
 (defun peca-c-v ()
-    "Pe√ßa C vertical descrita como uma matriz 2x3 e uma lista de 4 desloca√ß√µes
-    cada desloca√ß√£o √© descrita com uma lista de direc√µes diagonais de contato e um offset em x e y
-    da forma da pe√ßa relativamente a posicao no tabuleiro"
+    "PeÁa C vertical descrita como uma matriz 2x3 e uma lista de 4 deslocaÁıes
+    cada deslocaÁ„o È descrita com uma lista de direcıes diagonais de contato e um offset em x e y
+    da forma da peÁa relativamente a posicao no tabuleiro"
     '(
         (
             (1 0)
@@ -96,9 +96,9 @@
 )
 
 (defun peca-a ()
-    "Pe√ßa A descrita como uma matriz 1x1 e uma lista de 1 desloca√ß√µes
-    cada desloca√ß√£o √© descrita com uma lista de direc√µes diagonais de contato e um offset em x e y
-    da forma da pe√ßa relativamente a posicao no tabuleiro"
+    "PeÁa A descrita como uma matriz 1x1 e uma lista de 1 deslocaÁıes
+    cada deslocaÁ„o È descrita com uma lista de direcıes diagonais de contato e um offset em x e y
+    da forma da peÁa relativamente a posicao no tabuleiro"
     '(
         (
             (1)
@@ -111,9 +111,9 @@
 )
 
 (defun peca-b ()
-    "Pe√ßa B descrita como uma matriz 2x2 e uma lista de 4 desloca√ß√µes
-    cada desloca√ß√£o √© descrita com uma lista de direc√µes diagonais de contato e um offset em x e y
-    da forma da pe√ßa relativamente a posicao no tabuleiro"
+    "PeÁa B descrita como uma matriz 2x2 e uma lista de 4 deslocaÁıes
+    cada deslocaÁ„o È descrita com uma lista de direcıes diagonais de contato e um offset em x e y
+    da forma da peÁa relativamente a posicao no tabuleiro"
     '(
         (
             (1 1)
@@ -130,18 +130,18 @@
 )
 
 (defun operadores ()
-    "Devolve os simbolos relativos √†s 4 pe√ßas concretas do jogo"
+    "Devolve os simbolos relativos ‡s 4 peÁas concretas do jogo"
     (list 'peca-a  'peca-b 'peca-c-h 'peca-c-v)
 )
 
-;;; M√©todos auxiliares
+;;; MÈtodos auxiliares
 
 (defun celula (row col tabuleiro)
     "Retorna uma celula na linha e coluna do tabuleiro"
   (nth col (nth row tabuleiro)))
 
 (defun substituir-posicao (idx line &optional (value 1))
-    "Substitui a c√©lula na posi√ß√£o idx da linha recebida pelo valor"
+    "Substitui a cÈlula na posiÁ„o idx da linha recebida pelo valor"
   (labels ((recursive (current)
               (cond ((null (nth current line)) nil)
                     ((= current idx) (cons value (recursive (1+ current))))
@@ -150,7 +150,7 @@
 )
 
 (defun substituir (row col tabuleiro &optional (value 1))
-    "Substitui a c√©lula na posi√ß√£o row col recebida pelo valor"
+    "Substitui a cÈlula na posiÁ„o row col recebida pelo valor"
   (labels ((recursive (current)
               (cond ((null (nth current tabuleiro)) nil)
                     ((= current row) (cons (substituir-posicao col (nth current tabuleiro) value) (recursive (1+ current))))
@@ -167,7 +167,7 @@
 )
 
 (defun remove-from-list (l index &optional (i 0))
-  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimens√£o (1- (length l))"
+  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimens„o (1- (length l))"
     (cond 
         ((= i index) (cdr l))
         (t (cons (car l) (remove-from-list (cdr l) index (1+ i))))
@@ -175,7 +175,7 @@
 )
 
 (defun shuffle-list (l &optional (shuffled-list nil) (indexes nil) (init nil))
-    "Baralha a lista l aleat√≥riamente"
+    "Baralha a lista l aleatÛriamente"
     (cond
         ((null init) (shuffle-list l shuffled-list (list-0-to-n (1- (length l))) t ))
         ((null indexes) shuffled-list)
@@ -199,8 +199,8 @@
 
 
 (defun obter-vizinhanca (tabuleiro x y)
-    "Obtem uma matriz 3x3 que representa a vizinhan√ßa de uma c√©lula no tabuleiro
-    Representa espa√ßos fora do tabuleiro com o valor -1"
+    "Obtem uma matriz 3x3 que representa a vizinhanÁa de uma cÈlula no tabuleiro
+    Representa espaÁos fora do tabuleiro com o valor -1"
     (labels (
         (recursive (tabuleiro i)
             (cond 
@@ -253,8 +253,8 @@
 )
 
 (defun espacos-validos (tabuleiro jogador)
-    "Procura espa√ßos validos para jogar no tabuleiro
-    Devolve lista de listas com par de coordenadas e lista de dire√ß√µes diagonais de contacto
+    "Procura espaÁos validos para jogar no tabuleiro
+    Devolve lista de listas com par de coordenadas e lista de direÁıes diagonais de contacto
     (sup-esq, sup-dir, inf-esq, inf-dir)"
     (labels
         (
@@ -270,8 +270,8 @@
                                 (let*
                                     (
                                         (vizinhanca (obter-vizinhanca tabuleiro x y))
-                                        ;; Verificar se n√£o existem pe√ßas colocadas nas laterais
-                                        ;; e existe pelo menos uma pe√ßa nas diagonais
+                                        ;; Verificar se n„o existem peÁas colocadas nas laterais
+                                        ;; e existe pelo menos uma peÁa nas diagonais
                                         (decisao (and 
                                             (not (or 
                                                 (= (second (first vizinhanca)) jogador)
@@ -316,7 +316,7 @@
 )
 
 (defun tabuleiro-vaziop (tabuleiro &optional (jogador 1))
-    "Fun√ß√£o que avlia se um tabuleiro fornecido n√£o tem pe√ßas colocadas pelo jogador"
+    "FunÁ„o que avlia se um tabuleiro fornecido n„o tem peÁas colocadas pelo jogador"
     (cond
         ((null tabuleiro) t)
         ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro) jogador) (tabuleiro-vaziop (cdr tabuleiro) jogador)))
@@ -326,8 +326,8 @@
 )
 
 (defun potenciais-colocacoes-com-peca ( posicoes peca)
-    "Obtem uma lista de potenciais coloca√ß√µes da pe√ßa no tabuleiro
-    que deve ainda ser testada na pr√°tica"
+    "Obtem uma lista de potenciais colocaÁıes da peÁa no tabuleiro
+    que deve ainda ser testada na pr·tica"
     (eliminar-duplicados (apply #'append (mapcar (lambda (posicao)
              (remove nil (potenciais-colocacoes  posicao (deslocacoes-peca peca)))
         )
@@ -335,7 +335,7 @@
 )
 
 (defun potenciais-colocacoes (posicao deslocacoes)
-    "Devolve a resolu√ß√£o em coloca√ß√µes concretas da pe√ßa ao comparar a lista de deslocacoes da pe√ßa
+    "Devolve a resoluÁ„o em colocaÁıes concretas da peÁa ao comparar a lista de deslocacoes da peÁa
     com os contatos da posicao recebida."
     (cond
         ((null deslocacoes) nil)
@@ -354,7 +354,7 @@
 )
 
 (defun lista-contem-todos (lista elementos)
-    "Verifica se a lista recebida cont√©m todos os elementos"
+    "Verifica se a lista recebida contÈm todos os elementos"
     (cond
         ((null elementos) t)
         ((member (car elementos) lista) (and t (lista-contem-todos  lista (cdr elementos))))
@@ -363,14 +363,14 @@
 )
 
 (defun deslocacoes-peca (peca)
-    "Obtem a lista de desloca√ß√µes (offsets) da pe√ßa relativamente aos pontos de contacto"
+    "Obtem a lista de deslocaÁıes (offsets) da peÁa relativamente aos pontos de contacto"
     (car (cdr peca))
 )
 
 (defun potenciais-colocacoes-por-peca (estado operadores jogador)
-    "Obt√©m todas as potenciais coloca√ß√µes por pe√ßa no tabuleiro considerando as pe√ßas restantes na m√£o.
-    Todas as coloca√ß√µes devolvidas devem primeiro ser testadas em pr√°tica.
-    Devolve lista de listas com operador e uma lista de potencias coloca√ß√µes em listas de coordenas x y."
+    "ObtÈm todas as potenciais colocaÁıes por peÁa no tabuleiro considerando as peÁas restantes na m„o.
+    Todas as colocaÁıes devolvidas devem primeiro ser testadas em pr·tica.
+    Devolve lista de listas com operador e uma lista de potencias colocaÁıes em listas de coordenas x y."
     (let
         (
             (posicoes-validas (espacos-validos (first estado) jogador))
@@ -386,7 +386,7 @@
 )
 
 (defun tem-peca (peca mao)
-    "Valida se uma pe√ßa existe na m√£o do jogador"
+    "Valida se uma peÁa existe na m„o do jogador"
     (cond
         ((equal peca 'peca-a) (> (first mao) 0))
         ((equal peca 'peca-b) (> (second mao) 0))
@@ -396,8 +396,8 @@
 )
 
 (defun peca-casas-ocupadas (x y peca)
-    "Retorna uma lista de listas de coordenas que s√£o as casa ocupadas concretamente de jogar
-    a pe√ßa nas posi√ß√µes x y"
+    "Retorna uma lista de listas de coordenas que s„o as casa ocupadas concretamente de jogar
+    a peÁa nas posiÁıes x y"
   (labels
     (
       (recursivo (matriz-peca i j offset)
@@ -419,7 +419,7 @@
 
 
 (defun valida-casas (tabuleiro casas jogador &optional (primeira-jogada nil) (contato-diagonal nil))
-    "Valida se √© poss√≠vel jogar no tabuleiro nas casas"
+    "Valida se È possÌvel jogar no tabuleiro nas casas"
     (cond
         ((null casas) (or primeira-jogada contato-diagonal))
         ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
@@ -452,7 +452,7 @@
 )
 
 (defun atualizar-mao (mao peca-jogada)
-    "Devolve uma nova m√£o sem a pe√ßa jogada"
+    "Devolve uma nova m„o sem a peÁa jogada"
     (cond
         ((equal peca-jogada 'peca-a) (list (1- (first mao)) (second mao) (third mao)))
         ((equal peca-jogada 'peca-b) (list (first mao) (1- (second mao)) (third mao)))
@@ -461,7 +461,7 @@
 )
 
 (defun ocupar-casas (tabuleiro casas jogador)
-    "Imprime a pe√ßa sobre o tabuleiro, devolvendo um novo tabuleiro"
+    "Imprime a peÁa sobre o tabuleiro, devolvendo um novo tabuleiro"
     (cond
         ((null casas) tabuleiro)
         (t (ocupar-casas (substituir (second (car casas)) (first (car casas)) tabuleiro jogador) (cdr casas) jogador))
@@ -478,7 +478,7 @@
 
 
 (defun sucessores (no jogador operadores)
-    "Com base no n√≥ e nos operadores dispon√≠veis, devolve uma lista de sucessores v√°lidos"
+    "Com base no nÛ e nos operadores disponÌveis, devolve uma lista de sucessores v·lidos"
     (shuffle-list (apply #'append (mapcar (lambda (peca-colocacoes)  
         (remove nil (mapcar (lambda (colocacao)
             (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))

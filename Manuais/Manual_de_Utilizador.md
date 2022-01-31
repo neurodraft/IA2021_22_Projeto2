@@ -26,13 +26,13 @@
 
 
  ### <p style="text-align: center;"> <b> Realizado por :</b> </p>
- <p style="text-align: center;">Bernardo Mota nÂº201900947
+ <p style="text-align: center;">Bernardo Mota nº201900947
  <br>
-Frederico Alcaria nÂº201701440 </p>
+Frederico Alcaria nº201701440 </p>
 
 <div style="page-break-after: always;"></div>
 
-## AcrÃ³nimos
+## Acrónimos
 
 * **BFS:** Algoritmo de busca em largura
 * **DFS:** Algoritmo de busca em profundidade
@@ -41,27 +41,27 @@ Frederico Alcaria nÂº201701440 </p>
 
 <br>
 
-# IntroduÃ§Ã£o
+# Introdução
 
-Este manual visa a ser um guia compreensivo para a correta utilizaÃ§Ã£o do programa desenvolvido, utilizando a linguagem de programaÃ§Ã£o funcional LISP. O objetivo deste programa Ã© indicar quais os passos necessÃ¡rios para chegar ao objetivo dos problemas dados. Esta versÃ£o do Blokus usa um tabuleiro de 14 por 14, mas os problemas alteram as condiÃ§Ãµes de jogo dos tabuleiros e definem os seus objetivos.
+Este manual visa a ser um guia compreensivo para a correta utilização do programa desenvolvido, utilizando a linguagem de programação funcional LISP. O objetivo deste programa é indicar quais os passos necessários para chegar ao objetivo dos problemas dados. Esta versão do Blokus usa um tabuleiro de 14 por 14, mas os problemas alteram as condições de jogo dos tabuleiros e definem os seus objetivos.
 
 <br>
 
-# InstalaÃ§Ã£o e utilizaÃ§Ã£o
+# Instalação e utilização
 
-Para puder executar o programa Ã© necessÃ¡rio o IDE [LispWorks](http://www.lispworks.com/) ou outro que consiga interpretar a linguagem LISP.
+Para puder executar o programa é necessário o IDE [LispWorks](http://www.lispworks.com/) ou outro que consiga interpretar a linguagem LISP.
 
 ## Abrir e Compilar os ficheiros
 
-No LispWorks vai ser preciso compilar o ficheiro project.lisp. Ir File>Compile and Load e escolher o ficheiro project.lisp. Os restantes ficheiros vÃ£o ser compilados ao iniciar o programa, irÃ¡ ser pedido o path de onde se encontram os ficheiros do projeto necessÃ¡rios (procura.lisp , puzzle.lisp , problemas.dat). 
+No LispWorks vai ser preciso compilar o ficheiro project.lisp. Ir File>Compile and Load e escolher o ficheiro project.lisp. Os restantes ficheiros vão ser compilados ao iniciar o programa, irá ser pedido o path de onde se encontram os ficheiros do projeto necessários (procura.lisp , puzzle.lisp , problemas.dat). 
 
 ## Executar o Programa
 
-Para executar o programa Ã© necessÃ¡rio abrir um listener e chamar a funÃ§Ã£o iniciar escrevendo (iniciar)
+Para executar o programa é necessário abrir um listener e chamar a função iniciar escrevendo (iniciar)
 
 ## Navegar no Programa
 
-Para navegar no programa Ã© necessÃ¡rio escrever na consola o nÂº respetivo Ã  opÃ§Ã£o que deseja escolher.
+Para navegar no programa é necessário escrever na consola o nº respetivo à opção que deseja escolher.
 
 <div style="page-break-after: always;"></div>
 
@@ -70,17 +70,17 @@ Para navegar no programa Ã© necessÃ¡rio escrever na consola o nÂº respetivo Ã  o
 **Tipos de input:**
 
 <ul>
-  <li>Consola: A interaÃ§Ã£o com o programa Ã© atravÃ©s do listener. O programa lÃª o input e corre a opÃ§Ã£o associada ao nÂº introduzido.</li>
+  <li>Consola: A interação com o programa é através do listener. O programa lê o input e corre a opção associada ao nº introduzido.</li>
 </ul>
 
 **Tipos de output:**
 
 <ul>
-  <li>Ficheiros: o programa vai gerar um ficheiro com o nome log.dat que guarda toda a informaÃ§Ã£o relacionada Ã  execuÃ§Ã£o do programa.</li>
-  <li>Consola: A interaÃ§Ã£o com o utilizador Ã© feita atravÃ©s do listener. O programa mostra os menus com as vÃ¡rias opÃ§Ãµes possÃ­veis, e quando necessÃ¡rio mostram um exemplo de input.</li>
+  <li>Ficheiros: o programa vai gerar um ficheiro com o nome log.dat que guarda toda a informação relacionada à execução do programa.</li>
+  <li>Consola: A interação com o utilizador é feita através do listener. O programa mostra os menus com as várias opções possíveis, e quando necessário mostram um exemplo de input.</li>
 </ul>
 
-O ficheiro log.dat Ã© gerado no durante a execuÃ§Ã£o do jogo e regista a sequÃªncia de estados atÃ© Ã  conclusÃ£o do jogo e as estatÃ­sticas de execuÃ§Ã£o:
+O ficheiro log.dat é gerado no durante a execução do jogo e regista a sequência de estados até à conclusão do jogo e as estatísticas de execução:
 
 <br>
 
@@ -91,16 +91,16 @@ Ex:
 
 <div style="page-break-after: always;"></div>
 
-# Exemplo de aplicaÃ§Ã£o
+# Exemplo de aplicação
 
-Ao iniciar o programa irÃ¡ ser pedido o file path atÃ© ao local onde se encontra o projeto.
+Ao iniciar o programa irá ser pedido o file path até ao local onde se encontra o projeto.
 
 ```lisp
 Escreva o path da localizacao do projeto entre aspas
 Exemplo: ''C:/Users/username/Desktop/''
 ```
 
-Ao inserir o path surgirÃ¡ o menu com a seguinte interface, para escolher uma opÃ§Ã£o Ã© sÃ³ introduzir no listener o nÃºmero correspondente Ã  aÃ§Ã£o que quer realizar.
+Ao inserir o path surgirá o menu com a seguinte interface, para escolher uma opção é só introduzir no listener o número correspondente à ação que quer realizar.
 
 ```lisp
  _____________________________________
@@ -113,7 +113,7 @@ Ao inserir o path surgirÃ¡ o menu com a seguinte interface, para escolher uma op
 |_____________________________________|
  ```
 
-Se escolher 1 irÃ¡ passar para o modo de jogo de Humano contra Computador, se escolher 2 vai para o modo de jogo Computador contra Computador, se escolher 0 o programa fecha.
+Se escolher 1 irá passar para o modo de jogo de Humano contra Computador, se escolher 2 vai para o modo de jogo Computador contra Computador, se escolher 0 o programa fecha.
 
 Se escolher o modo de jogo Humano VS Computador vai aparecer o menu para escolher qual o jogar que deseja ser.
 
@@ -131,7 +131,7 @@ Se escolher o modo de jogo Humano VS Computador vai aparecer o menu para escolhe
 |_____________________________________|
  ```
 
-Se escolher o modo de jogo Computador VS Computador o menu de escolher o jogador nÃ£o irÃ¡ aparecer mas irÃ¡ aparecer o menu para escolher o tempo limite. O tempo limite define o tempo que o computador tÃªm para fazer a sua jogada. O menu de tempo limite aparece nos dois modos de jogo.
+Se escolher o modo de jogo Computador VS Computador o menu de escolher o jogador não irá aparecer mas irá aparecer o menu para escolher o tempo limite. O tempo limite define o tempo que o computador têm para fazer a sua jogada. O menu de tempo limite aparece nos dois modos de jogo.
 
 
 ```lisp
@@ -147,7 +147,7 @@ Se escolher o modo de jogo Computador VS Computador o menu de escolher o jogador
 |_____________________________________|
  ```
 
-Ao escolher o tabuleiro, o menu dos algortimos vai aparecer com 3 escolhas possÃ­veis:
+Ao escolher o tabuleiro, o menu dos algortimos vai aparecer com 3 escolhas possíveis:
 <ul>
   <li>BFS - Breadth-First Search</li>
   <li>DFS - Depth-First Search</li>
@@ -156,28 +156,28 @@ Ao escolher o tabuleiro, o menu dos algortimos vai aparecer com 3 escolhas possÃ
 
 
 
-## ConclusÃ£o do Programa
+## Conclusão do Programa
 
-Quando o algoritmo terminar irÃ¡ aparecer a sequÃªncia de estados atÃ© ao fim do problema e as estatÃ­sticas relacionadas Ã  execuÃ§Ã£o do algoritmo. Nas estatÃ­sticas irÃ¡ ser possÃ­vel ver:
+Quando o algoritmo terminar irá aparecer a sequência de estados até ao fim do problema e as estatísticas relacionadas à execução do algoritmo. Nas estatísticas irá ser possível ver:
 
 <ul>
-  <li>Factor de ramificaÃ§Ã£o mÃ©dia</li>
-  <li>NÃºmero de nÃ³s gerados</li>
-  <li>NÃºmero de nÃ³s expandidos</li>
-  <li>PenetrÃ¢ncia</li>
-  <li>Tempo de execuÃ§Ã£o em segundos</li>
+  <li>Factor de ramificação média</li>
+  <li>Número de nós gerados</li>
+  <li>Número de nós expandidos</li>
+  <li>Penetrância</li>
+  <li>Tempo de execução em segundos</li>
 </ul>
 
 Ex:
 
 ```lisp
 - --/-/-/-/-/E S T A T I S T I C A S/-/-/-/-/-- - 
-Factor de ramificaÃ§Ã£o mÃ©dia: 21.36111 
-NÃºmero de nÃ³s gerados: 769 
-NÃºmero de nÃ³s expandidos: 36 
-PenetrÃ¢ncia: 0.041612484 
-Tempo de execuÃ§Ã£o em segundos: 0.416 
+Factor de ramificação média: 21.36111 
+Número de nós gerados: 769 
+Número de nós expandidos: 36 
+Penetrância: 0.041612484 
+Tempo de execução em segundos: 0.416 
 - --/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-- - 
  ```
 
-Toda a informaÃ§Ã£o que Ã© apresentada no final da execuÃ§Ã£o tambem irÃ¡ ser guardada no ficheiro resultados.dat. O utilizador depois terÃ¡ a opÃ§Ã£o de continuar a usar ou fechar o programa.B
+Toda a informação que é apresentada no final da execução tambem irá ser guardada no ficheiro resultados.dat. O utilizador depois terá a opção de continuar a usar ou fechar o programa.B
