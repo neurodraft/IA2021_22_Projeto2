@@ -1,8 +1,10 @@
 (defun no-inicial ()
+"Gera um nó inicial com um estado inicial de jogo Blockus Duo"
     (list (estado-inicial) nil)
 )
 
 (defun estado-inicial ()
+"Gera um estado inicial do jogo Blockus Duo"
     (list (tabuleiro-vazio) (pecas-iniciais) (pecas-iniciais))
 )
 
@@ -15,26 +17,32 @@
 )
 
 (defun no-estado (no)
+    "Obtem o estado de um nó"
     (first no)
 )
 
 (defun no-jogada (no)
+    "Obtem a última jogada de um nó"
     (second no)
 )
 
 (defun estado-tabuleiro (estado)
+    "Obtem o tabuleiro de um estado"
     (first estado)
 )
 
 (defun estado-pecas-jogador (estado jogador)
+    "Obtem as peças do jogador especificado de um estado"
     (nth jogador estado)
 )
 
 (defun peca-offset-hotspot (peca)
+    "Obtem o offset relativo ao hotspot de uma peca"
     (third peca)
 )
 
 (defun tabuleiro-vazio () 
+    "Retorna um tabuleiro Blockus Duo vazio"
     '(
       (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
       (0 0 0 0 0 0 0 0 0 0 0 0 0 0)
@@ -53,13 +61,15 @@
 )
 
 (defun pecas-iniciais ()
+    "Retorna uma mão de jogo com todas as pecas"
     '(10 10 15)
 )
 
 (defun peca-c-h ()
-    "PeÃ§a C horizontal descrita como uma matriz 3x2 e uma lista de 4 deslocaÃ§Ãµes
-    cada deslocaÃ§Ã£o Ã© descrita com uma lista de direcÃµes diagonais de contato e um offset em x e y
-    da forma da peÃ§a relativamente a posicao no tabuleiro"
+    "Peça C horizontal descrita como uma matriz 3x2, uma lista de 4 deslocações e um offset relativo
+    ao hotspot.
+    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
+    da forma da peça relativamente a posicao no tabuleiro"
     '(
         (
             (0 1 1)
@@ -76,9 +86,10 @@
 )
 
 (defun peca-c-v ()
-    "PeÃ§a C vertical descrita como uma matriz 2x3 e uma lista de 4 deslocaÃ§Ãµes
-    cada deslocaÃ§Ã£o Ã© descrita com uma lista de direcÃµes diagonais de contato e um offset em x e y
-    da forma da peÃ§a relativamente a posicao no tabuleiro"
+    "Peça C vertical descrita como uma matriz 2x3, uma lista de 4 deslocações e um offset relativo
+    ao hotspot.
+    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
+    da forma da peça relativamente a posicao no tabuleiro"
     '(
         (
             (1 0)
@@ -96,9 +107,10 @@
 )
 
 (defun peca-a ()
-    "PeÃ§a A descrita como uma matriz 1x1 e uma lista de 1 deslocaÃ§Ãµes
-    cada deslocaÃ§Ã£o Ã© descrita com uma lista de direcÃµes diagonais de contato e um offset em x e y
-    da forma da peÃ§a relativamente a posicao no tabuleiro"
+    "Peça A descrita como uma matriz 1x1, uma lista de 1 deslocações e um offset relativo
+    ao hotspot.
+    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
+    da forma da peça relativamente a posicao no tabuleiro"
     '(
         (
             (1)
@@ -111,9 +123,10 @@
 )
 
 (defun peca-b ()
-    "PeÃ§a B descrita como uma matriz 2x2 e uma lista de 4 deslocaÃ§Ãµes
-    cada deslocaÃ§Ã£o Ã© descrita com uma lista de direcÃµes diagonais de contato e um offset em x e y
-    da forma da peÃ§a relativamente a posicao no tabuleiro"
+    "Peça B descrita como uma matriz 2x2, uma lista de 4 deslocações e um offset relativo
+    ao hotspot.
+    cada deslocação é descrita com uma lista de direcões diagonais de contato e um offset em x e y
+    da forma da peça relativamente a posicao no tabuleiro"
     '(
         (
             (1 1)
@@ -130,18 +143,18 @@
 )
 
 (defun operadores ()
-    "Devolve os simbolos relativos Ã s 4 peÃ§as concretas do jogo"
+    "Devolve os simbolos relativos às 4 peças concretas do jogo"
     (list 'peca-a  'peca-b 'peca-c-h 'peca-c-v)
 )
 
-;;; MÃ©todos auxiliares
+;;; Métodos auxiliares
 
 (defun celula (row col tabuleiro)
     "Retorna uma celula na linha e coluna do tabuleiro"
   (nth col (nth row tabuleiro)))
 
 (defun substituir-posicao (idx line &optional (value 1))
-    "Substitui a cÃ©lula na posiÃ§Ã£o idx da linha recebida pelo valor"
+    "Substitui a célula na posição idx da linha recebida pelo valor"
   (labels ((recursive (current)
               (cond ((null (nth current line)) nil)
                     ((= current idx) (cons value (recursive (1+ current))))
@@ -150,7 +163,7 @@
 )
 
 (defun substituir (row col tabuleiro &optional (value 1))
-    "Substitui a cÃ©lula na posiÃ§Ã£o row col recebida pelo valor"
+    "Substitui a célula na posição row col recebida pelo valor"
   (labels ((recursive (current)
               (cond ((null (nth current tabuleiro)) nil)
                     ((= current row) (cons (substituir-posicao col (nth current tabuleiro) value) (recursive (1+ current))))
@@ -167,7 +180,7 @@
 )
 
 (defun remove-from-list (l index &optional (i 0))
-  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimensÃ£o (1- (length l))"
+  "Remove da lista l o elemento de indice index, devolvendo uma lista de dimensão (1- (length l))"
     (cond 
         ((= i index) (cdr l))
         (t (cons (car l) (remove-from-list (cdr l) index (1+ i))))
@@ -175,7 +188,7 @@
 )
 
 (defun shuffle-list (l &optional (shuffled-list nil) (indexes nil) (init nil))
-    "Baralha a lista l aleatÃ³riamente"
+    "Baralha a lista l aleatóriamente"
     (cond
         ((null init) (shuffle-list l shuffled-list (list-0-to-n (1- (length l))) t ))
         ((null indexes) shuffled-list)
@@ -199,8 +212,8 @@
 
 
 (defun obter-vizinhanca (tabuleiro x y)
-    "Obtem uma matriz 3x3 que representa a vizinhanÃ§a de uma cÃ©lula no tabuleiro
-    Representa espaÃ§os fora do tabuleiro com o valor -1"
+    "Obtem uma matriz 3x3 que representa a vizinhança de uma célula no tabuleiro
+    Representa espaços fora do tabuleiro com o valor -1"
     (labels (
         (recursive (tabuleiro i)
             (cond 
@@ -253,8 +266,8 @@
 )
 
 (defun espacos-validos (tabuleiro jogador)
-    "Procura espaÃ§os validos para jogar no tabuleiro
-    Devolve lista de listas com par de coordenadas e lista de direÃ§Ãµes diagonais de contacto
+    "Procura espaços validos para o jogador especificado jogar no tabuleiro
+    Devolve lista de listas com par de coordenadas e lista de direções diagonais de contacto
     (sup-esq, sup-dir, inf-esq, inf-dir)"
     (labels
         (
@@ -270,8 +283,8 @@
                                 (let*
                                     (
                                         (vizinhanca (obter-vizinhanca tabuleiro x y))
-                                        ;; Verificar se nÃ£o existem peÃ§as colocadas nas laterais
-                                        ;; e existe pelo menos uma peÃ§a nas diagonais
+                                        ;; Verificar se não existem peças colocadas nas laterais
+                                        ;; e existe pelo menos uma peça nas diagonais
                                         (decisao (and 
                                             (not (or 
                                                 (= (second (first vizinhanca)) jogador)
@@ -316,7 +329,7 @@
 )
 
 (defun tabuleiro-vaziop (tabuleiro &optional (jogador 1))
-    "FunÃ§Ã£o que avlia se um tabuleiro fornecido nÃ£o tem peÃ§as colocadas pelo jogador"
+    "Função que avlia se um tabuleiro fornecido não tem peças colocadas pelo jogador (1 por defeito)"
     (cond
         ((null tabuleiro) t)
         ((listp (car tabuleiro)) (and (tabuleiro-vaziop (car tabuleiro) jogador) (tabuleiro-vaziop (cdr tabuleiro) jogador)))
@@ -326,8 +339,8 @@
 )
 
 (defun potenciais-colocacoes-com-peca ( posicoes peca)
-    "Obtem uma lista de potenciais colocaÃ§Ãµes da peÃ§a no tabuleiro
-    que deve ainda ser testada na prÃ¡tica"
+    "Obtem uma lista de potenciais colocações da peça no tabuleiro
+    que deve ainda ser testada na prática"
     (eliminar-duplicados (apply #'append (mapcar (lambda (posicao)
              (remove nil (potenciais-colocacoes  posicao (deslocacoes-peca peca)))
         )
@@ -335,7 +348,7 @@
 )
 
 (defun potenciais-colocacoes (posicao deslocacoes)
-    "Devolve a resoluÃ§Ã£o em colocaÃ§Ãµes concretas da peÃ§a ao comparar a lista de deslocacoes da peÃ§a
+    "Devolve a resolução em colocações concretas da peça ao comparar a lista de deslocacoes da peça
     com os contatos da posicao recebida."
     (cond
         ((null deslocacoes) nil)
@@ -354,7 +367,7 @@
 )
 
 (defun lista-contem-todos (lista elementos)
-    "Verifica se a lista recebida contÃ©m todos os elementos"
+    "Verifica se a lista recebida contém todos os elementos"
     (cond
         ((null elementos) t)
         ((member (car elementos) lista) (and t (lista-contem-todos  lista (cdr elementos))))
@@ -363,14 +376,15 @@
 )
 
 (defun deslocacoes-peca (peca)
-    "Obtem a lista de deslocaÃ§Ãµes (offsets) da peÃ§a relativamente aos pontos de contacto"
+    "Obtem a lista de deslocações (offsets) da peça relativamente aos pontos de contacto"
     (car (cdr peca))
 )
 
 (defun potenciais-colocacoes-por-peca (estado operadores jogador)
-    "ObtÃ©m todas as potenciais colocaÃ§Ãµes por peÃ§a no tabuleiro considerando as peÃ§as restantes na mÃ£o.
-    Todas as colocaÃ§Ãµes devolvidas devem primeiro ser testadas em prÃ¡tica.
-    Devolve lista de listas com operador e uma lista de potencias colocaÃ§Ãµes em listas de coordenas x y."
+    "Obtém todas as potenciais colocações por peça no tabuleiro considerando as peças restantes na mão
+    do jogador específicado.
+    Todas as colocações devolvidas devem primeiro ser testadas em prática.
+    Devolve lista de listas com operador e uma lista de potencias colocações em listas de coordenas x y."
     (let
         (
             (posicoes-validas (espacos-validos (first estado) jogador))
@@ -386,7 +400,7 @@
 )
 
 (defun tem-peca (peca mao)
-    "Valida se uma peÃ§a existe na mÃ£o do jogador"
+    "Valida se uma peça existe na mão do jogador fornecida"
     (cond
         ((equal peca 'peca-a) (> (first mao) 0))
         ((equal peca 'peca-b) (> (second mao) 0))
@@ -396,8 +410,8 @@
 )
 
 (defun peca-casas-ocupadas (x y peca)
-    "Retorna uma lista de listas de coordenas que sÃ£o as casa ocupadas concretamente de jogar
-    a peÃ§a nas posiÃ§Ãµes x y"
+    "Retorna uma lista de listas de coordenas que são as casa ocupadas concretamente de jogar
+    a peça nas posições x y"
   (labels
     (
       (recursivo (matriz-peca i j offset)
@@ -419,7 +433,7 @@
 
 
 (defun valida-casas (tabuleiro casas jogador &optional (primeira-jogada nil) (contato-diagonal nil))
-    "Valida se Ã© possÃ­vel jogar no tabuleiro nas casas"
+    "Valida se é possível ao jogador específicado jogar no tabuleiro nas casas"
     (cond
         ((null casas) (or primeira-jogada contato-diagonal))
         ((or (> (first (car casas)) 13) (> (second (car casas)) 13)
@@ -452,7 +466,7 @@
 )
 
 (defun atualizar-mao (mao peca-jogada)
-    "Devolve uma nova mÃ£o sem a peÃ§a jogada"
+    "Devolve uma nova mão sem a peça jogada"
     (cond
         ((equal peca-jogada 'peca-a) (list (1- (first mao)) (second mao) (third mao)))
         ((equal peca-jogada 'peca-b) (list (first mao) (1- (second mao)) (third mao)))
@@ -461,7 +475,7 @@
 )
 
 (defun ocupar-casas (tabuleiro casas jogador)
-    "Imprime a peÃ§a sobre o tabuleiro, devolvendo um novo tabuleiro"
+    "Imprime a peça sobre o tabuleiro com o numero do jogado específicado, devolvendo um novo tabuleiro"
     (cond
         ((null casas) tabuleiro)
         (t (ocupar-casas (substituir (second (car casas)) (first (car casas)) tabuleiro jogador) (cdr casas) jogador))
@@ -471,6 +485,7 @@
 
 
 (defun criar-f-sucessores (jogador-proprio jogador-adversario)
+    "Criar uma função de geração de sucessores com o jogador e o adversário definidos em closure"
     (lambda (no jogador-max) 
         (sucessores no (if jogador-max jogador-proprio jogador-adversario) (operadores))
     )
@@ -478,7 +493,7 @@
 
 
 (defun sucessores (no jogador operadores)
-    "Com base no nÃ³ e nos operadores disponÃ­veis, devolve uma lista de sucessores vÃ¡lidos"
+    "Com base no nó, no jogador e nos operadores disponíveis, devolve uma lista de sucessores válidos"
     (shuffle-list (apply #'append (mapcar (lambda (peca-colocacoes)  
         (remove nil (mapcar (lambda (colocacao)
             (let ((casas-ocupadas (peca-casas-ocupadas (first colocacao) (second colocacao) (funcall (first peca-colocacoes)))))
@@ -500,6 +515,9 @@
 )
 
 (defun criar-novo-estado (estado casas-a-ocupar peca jogador)
+    "Cria um novo estado de Blockus Duo com um novo estado resultante da impressão
+    das casas-a-ocupar sobre o tabuleiro do estado fornecido, uma mão atualizada sem
+    a peça usada. "
     (if (= jogador 1)
         (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (atualizar-mao (estado-pecas-jogador estado 1) peca) (estado-pecas-jogador estado 2))
         (criar-estado (ocupar-casas (estado-tabuleiro estado) casas-a-ocupar jogador) (estado-pecas-jogador estado 1) (atualizar-mao (estado-pecas-jogador estado 2) peca))
@@ -507,12 +525,14 @@
 )
 
 (defun criar-f-utilidade (jogador-proprio jogador-adversario)
+    "Criar uma função de utilidade com o jogador e o adversário definidos em closure"
     (lambda (no)
         (-  (pontuacao (no-estado no) jogador-adversario) (pontuacao (no-estado no) jogador-proprio))
     )
 )
 
 (defun pontuacao (estado jogador)
+    "Retorna a pontuação do jogador no estado fornecido"
     (let (
         (pecas (estado-pecas-jogador estado jogador))
         )

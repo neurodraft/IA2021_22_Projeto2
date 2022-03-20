@@ -34,16 +34,13 @@ Frederico Alcaria nº201701440 </p>
 
 ## Acrónimos
 
-* **BFS:** Algoritmo de busca em largura
-* **DFS:** Algoritmo de busca em profundidade
-* **A***: Algoritmo de procura informada
-* **IDE***: integrated deveopment environment (ambiente de desenvolvimento integrado)
+* **IDE**: integrated deveopment environment (ambiente de desenvolvimento integrado)
 
 <br>
 
 # Introdução
 
-Este manual visa a ser um guia compreensivo para a correta utilização do programa desenvolvido, utilizando a linguagem de programação funcional LISP. O objetivo deste programa é indicar quais os passos necessários para chegar ao objetivo dos problemas dados. Esta versão do Blokus usa um tabuleiro de 14 por 14, mas os problemas alteram as condições de jogo dos tabuleiros e definem os seus objetivos.
+Este manual visa a ser um guia compreensivo para a correta utilização do programa desenvolvido, utilizando a linguagem de programação funcional LISP. O objetivo deste programa é indicar quais os passos necessários para utilizar a aplicação sem problemas. Esta versão do Blokus tem 2 modos de jogo, Humano VS Computador e Computador VS Computador.
 
 <br>
 
@@ -53,7 +50,7 @@ Para puder executar o programa é necessário o IDE [LispWorks](http://www.lispw
 
 ## Abrir e Compilar os ficheiros
 
-No LispWorks vai ser preciso compilar o ficheiro project.lisp. Ir File>Compile and Load e escolher o ficheiro project.lisp. Os restantes ficheiros vão ser compilados ao iniciar o programa, irá ser pedido o path de onde se encontram os ficheiros do projeto necessários (procura.lisp , puzzle.lisp , problemas.dat). 
+No LispWorks vai ser preciso compilar o ficheiro jogo.lisp. Ir File>Compile and Load e escolher o ficheiro project.lisp. Os restantes ficheiros vão ser compilados ao iniciar o programa, irá ser pedido o path de onde se encontram os ficheiros do projeto necessários (jogo.lisp , puzzle.lisp , algoritmo.dat). 
 
 ## Executar o Programa
 
@@ -80,14 +77,8 @@ Para navegar no programa é necessário escrever na consola o nº respetivo à o
   <li>Consola: A interação com o utilizador é feita através do listener. O programa mostra os menus com as várias opções possíveis, e quando necessário mostram um exemplo de input.</li>
 </ul>
 
-O ficheiro log.dat é gerado no durante a execução do jogo e regista a sequência de estados até à conclusão do jogo e as estatísticas de execução:
+O ficheiro log.dat é gerado no durante a execução do jogo e regista a sequência de estados até à conclusão do jogo e as estatísticas de execução. Exemplo em anexo no final do documento.
 
-<br>
-
-Ex:
-```lisp
-
- ```
 
 <div style="page-break-after: always;"></div>
 
@@ -109,11 +100,14 @@ Ao inserir o path surgirá o menu com a seguinte interface, para escolher uma op
 |                                     |
 |     1 - Humano VS Computador        |
 |     2 - Computador VS Computador    |
+|     3 - Limpar Tabela de Memoização |
 |     0 - Sair                        |
 |_____________________________________|
  ```
 
 Se escolher 1 irá passar para o modo de jogo de Humano contra Computador, se escolher 2 vai para o modo de jogo Computador contra Computador, se escolher 0 o programa fecha.
+
+A opção 3 serve para limpar tabela de Memoização, <b>é recomendado usar esta opção entre jogos </b>.
 
 Se escolher o modo de jogo Humano VS Computador vai aparecer o menu para escolher qual o jogar que deseja ser.
 
@@ -147,37 +141,309 @@ Se escolher o modo de jogo Computador VS Computador o menu de escolher o jogador
 |_____________________________________|
  ```
 
-Ao escolher o tabuleiro, o menu dos algortimos vai aparecer com 3 escolhas possíveis:
-<ul>
-  <li>BFS - Breadth-First Search</li>
-  <li>DFS - Depth-First Search</li>
-  <li>A*
-</ul>
+<div style="page-break-after: always;"></div>
 
+## Modo Computador VS Computador
 
-
-## Conclusão do Programa
-
-Quando o algoritmo terminar irá aparecer a sequência de estados até ao fim do problema e as estatísticas relacionadas à execução do algoritmo. Nas estatísticas irá ser possível ver:
-
-<ul>
-  <li>Factor de ramificação média</li>
-  <li>Número de nós gerados</li>
-  <li>Número de nós expandidos</li>
-  <li>Penetrância</li>
-  <li>Tempo de execução em segundos</li>
-</ul>
+Após escolher o limite de tempo o jogo é iniciado e irá correr automaticamente até à sua conclusão. Irá mostrar no listener todas as jogadas que ocorreram em conjunto com as estatisitcas relevantes.
 
 Ex:
+```lisp
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (0 0) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+Peças disponiveis: 
+Jogador 1: (10 9 15) 
+Jogador 2: (10 10 15) 
+ 
+ Melhor valor: 4 
+Número nós analisados: 30 
+Número cortes-alfa: 2 
+Número cortes-beta: 2 
+Limite de tempo alcançado: Não 
+```
+<div style="page-break-after: always;"></div>
+
+## Modo Humano VS Computador
+
+Após escolher o limite de tempo e o jogador que deseja ser o jogo é iniciado. Irá jogar à vez, alternado entre os jogadores. Irá mostrar no listener todas as jogadas que ocorreram em conjunto com as estatisitcas relevantes.
+Para jogar vai ser preciso escolher a peça que deseja jogar, e as coordenadas para colocar a peça. Também existe a opção de passar o turno.
+
+Ex:
+```lisp
+Escolha uma ação:  
+  
+ 1 - peça A 
+ 2 - peça B 
+ 3 - peça C-H 
+ 4 - peça C-V 
+ 0 - Passar o turno 
+  
+ -> Opção: 1
+ 
+ Escolha uma linha [0,13]: 0
+ 
+ Escolha uma coluna [0,13]: 0
+Turno do Jogador 1 
+ ------------------- 
+PECA-A jogada na posição (0 0) 
+X _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+Peças disponiveis: 
+Jogador 1: (9 10 15) 
+Jogador 2: (10 10 15) 
+```
+
+<div style="page-break-after: always;"></div>
+
+# Anexo
+
+Exemplo do log.dat:
 
 ```lisp
-- --/-/-/-/-/E S T A T I S T I C A S/-/-/-/-/-- - 
-Factor de ramificação média: 21.36111 
-Número de nós gerados: 769 
-Número de nós expandidos: 36 
-Penetrância: 0.041612484 
-Tempo de execução em segundos: 0.416 
-- --/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-- - 
- ```
-
-Toda a informação que é apresentada no final da execução tambem irá ser guardada no ficheiro resultados.dat. O utilizador depois terá a opção de continuar a usar ou fechar o programa.B
+/////////////////////////////////////////////////////////////////////////
+Jogo: Computador VS Computador 
+Tempo limite: 1000 milisegundos 
+/////////////////////////////////////////////////////////////////////////
+Turno do Jogador 1 
+ ------------------- 
+PECA-B jogada na posição (0 0) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+Peças disponiveis: 
+Jogador 1: (10 9 15) 
+Jogador 2: (10 10 15) 
+ 
+ Melhor valor: 4 
+Número nós analisados: 30 
+Número cortes-alfa: 2 
+Número cortes-beta: 2 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-B jogada na posição (12 12) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 15) 
+Jogador 2: (10 9 15) 
+ 
+ Melhor valor: 0 
+Número nós analisados: 45 
+Número cortes-alfa: 4 
+Número cortes-beta: 2 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (2 2) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 14) 
+Jogador 2: (10 9 15) 
+ 
+ Melhor valor: 4 
+Número nós analisados: 121 
+Número cortes-alfa: 3 
+Número cortes-beta: 4 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (10 11) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 14) 
+Jogador 2: (10 9 14) 
+ 
+ Melhor valor: 0 
+Número nós analisados: 184 
+Número cortes-alfa: 25 
+Número cortes-beta: 3 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-H jogada na posição (4 3) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ X X _ _ _ _ _ _ _
+_ _ _ _ X X _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 13) 
+Jogador 2: (10 9 14) 
+ 
+ Melhor valor: 4 
+Número nós analisados: 333 
+Número cortes-alfa: 14 
+Número cortes-beta: 12 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-H jogada na posição (9 9) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ X X _ _ _ _ _ _ _
+_ _ _ _ X X _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ O O _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 13) 
+Jogador 2: (10 9 13) 
+ 
+ Melhor valor: 0 
+Número nós analisados: 410 
+Número cortes-alfa: 20 
+Número cortes-beta: 14 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 1 
+ ------------------- 
+PECA-C-V jogada na posição (7 3) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ X X _ _ _ _ _ _ _
+_ _ _ _ X X _ X _ _ _ _ _ _
+_ _ _ _ _ _ _ X X _ _ _ _ _
+_ _ _ _ _ _ _ _ X _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ O O _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 12) 
+Jogador 2: (10 9 13) 
+ 
+ Melhor valor: 4 
+Número nós analisados: 863 
+Número cortes-alfa: 20 
+Número cortes-beta: 20 
+Limite de tempo alcançado: Não 
+ 
+Turno do Jogador 2 
+ ------------------- 
+PECA-C-V jogada na posição (11 5) 
+X X _ _ _ _ _ _ _ _ _ _ _ _
+X X _ X X _ _ _ _ _ _ _ _ _
+_ _ X X _ X X _ _ _ _ _ _ _
+_ _ _ _ X X _ X _ _ _ _ _ _
+_ _ _ _ _ _ _ X X _ _ _ _ _
+_ _ _ _ _ _ _ _ X _ _ O _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ _ _ O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ O O _ _ _
+_ _ _ _ _ _ _ _ _ _ _ O O _
+_ _ _ _ _ _ _ _ _ _ O O _ _
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+_ _ _ _ _ _ _ _ _ _ _ _ O O
+Peças disponiveis: 
+Jogador 1: (10 9 12) 
+Jogador 2: (10 9 12) 
+ 
+ Melhor valor: 0 
+Número nós analisados: 787 
+Número cortes-alfa: 32 
+Número cortes-beta: 20 
+Limite de tempo alcançado: Não 
+```
